@@ -1,0 +1,16 @@
+{
+  "name": "spin-and-solve",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --ip 0.0.0.0",
+    "deploy": "npm run puzzles && wrangler deploy",
+    "puzzles": "node scripts/merge-puzzles.mjs && node scripts/validate-puzzles.mjs",
+    "validate": "node scripts/validate-puzzles.mjs",
+    "test": "node --test test/"
+  },
+  "devDependencies": {
+    "wrangler": "^4.40.0"
+  }
+}
