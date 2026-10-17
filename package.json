@@ -8,7 +8,7 @@
     "deploy": "npm run puzzles && wrangler deploy",
     "puzzles": "node scripts/merge-puzzles.mjs && node scripts/validate-puzzles.mjs",
     "validate": "node scripts/validate-puzzles.mjs",
-    "test": "node --test test/"
+    "test": "node --test \"test/*.test.mjs\""
   },
   "devDependencies": {
     "wrangler": "^4.40.0"

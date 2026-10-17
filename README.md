@@ -33,8 +33,8 @@ Open `https://spin-and-solve.<your-subdomain>.workers.dev/tv`. Durable Objects w
 ```bash
 npm test             # engine, judge, wheel, board, custom pack
 npm run validate     # puzzle validator
-# end-to-end (needs wrangler dev running with DEBUG_ANSWERS=1 in .dev.vars):
-echo DEBUG_ANSWERS=1 > .dev.vars && npm run dev &
+# end-to-end (needs wrangler dev running with DEBUG_ANSWERS=1):
+npx wrangler dev --port 8787 --var DEBUG_ANSWERS:1 &
 node scripts/smoke.mjs
 ```
 
