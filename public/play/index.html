@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#151338">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Spin &amp; Solve</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;800;900&display=swap">
+  <link rel="stylesheet" href="/shared/theme.css">
+  <link rel="stylesheet" href="/play/play.css">
+</head>
+<body>
+  <div id="banner" class="banner" hidden>Reconnecting…</div>
+  <header id="top" class="top" hidden>
+    <span id="conn" class="conn" title="Connection"></span>
+    <span id="roomLabel" class="room-label"></span>
+    <span id="roundLabel" class="round-label"></span>
+  </header>
+  <main id="app" class="app"></main>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <div id="fx" class="fx" aria-hidden="true"></div>
+  <script type="module" src="/play/play.js"></script>
+</body>
+</html>
