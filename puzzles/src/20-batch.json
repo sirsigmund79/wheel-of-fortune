@@ -1,0 +1,2042 @@
+[
+ {
+  "category": "Place",
+  "answer": "A BUSY AIRPORT TERMINAL",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE PUBLIC LIBRARY",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A SANDY BEACH",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE GROCERY STORE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A CITY PARK",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE BACKYARD",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A MOVIE THEATER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE SCHOOL CAFETERIA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A HOSPITAL WAITING ROOM",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE FRONT PORCH",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A COUNTY FAIR",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE BOWLING ALLEY",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A FIRE STATION",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE POST OFFICE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A PETTING ZOO",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE CANDY SHOP",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "AN ICE SKATING RINK",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE TOWN SQUARE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A FARMERS MARKET",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE SWIMMING POOL",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A GAS STATION",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "THE PLAYGROUND",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A TRAIN STATION",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Place",
+  "answer": "A QUIET COUNTRY ROAD",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE BACK SEAT OF A TAXI",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A CROWDED FOOD COURT",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE HOTEL LOBBY",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A DENTIST'S OFFICE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "AN UNDERGROUND PARKING GARAGE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE OBSERVATION DECK",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A ROADSIDE DINER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE LOCKER ROOM",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A MOUNTAIN CABIN",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A BUSTLING FISH MARKET",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE CONCESSION STAND",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A SECONDHAND BOOKSTORE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE BALCONY SEATS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A MINIATURE GOLF COURSE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE CAR WASH",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A LAUNDROMAT",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE TEACHERS' LOUNGE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "AN APPLE ORCHARD",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A BOARDWALK ARCADE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE PUMPKIN PATCH",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A HIGH SCHOOL GYMNASIUM",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "THE DRIVE-THROUGH WINDOW",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Place",
+  "answer": "A DIMLY LIT JAZZ CLUB",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "THE TOP BUNK AT SUMMER CAMP",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "AN ABANDONED LIGHTHOUSE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "A CLIFFSIDE MONASTERY",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "THE EMERGENCY EXIT ROW",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "A SUNKEN SHIPWRECK",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "THE PRINCIPAL'S OFFICE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "A RAINFOREST CANOPY",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "AN OPEN-AIR AMPHITHEATER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "THE VELVET-ROPED VIP SECTION",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "A DRAFTY OLD CASTLE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Place",
+  "answer": "A HIDDEN SPEAKEASY",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "PARIS FRANCE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE AMAZON RIVER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "MOUNT EVEREST",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "NEW YORK CITY",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE PACIFIC OCEAN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "CANADA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "AUSTRALIA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE SAHARA DESERT",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "LONDON ENGLAND",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "TOKYO JAPAN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE ROCKY MOUNTAINS",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "FLORIDA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE GULF OF MEXICO",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "ROME ITALY",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE NILE RIVER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "LAS VEGAS NEVADA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "ICELAND",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE MEDITERRANEAN SEA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "SAN FRANCISCO",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "MEXICO CITY",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "HAWAII",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "EGYPT",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE ATLANTIC OCEAN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "On the Map",
+  "answer": "BUENOS AIRES ARGENTINA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE DANUBE RIVER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "MOUNT KILIMANJARO",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "CAPE TOWN SOUTH AFRICA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE ANDES MOUNTAINS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "LAKE SUPERIOR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE STRAIT OF GIBRALTAR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "NEW ORLEANS LOUISIANA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE SWISS ALPS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "RIO DE JANEIRO BRAZIL",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE GOBI DESERT",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "VANCOUVER BRITISH COLUMBIA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE CARIBBEAN SEA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE BALTIC SEA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "EDINBURGH SCOTLAND",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE HIMALAYAS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "NEW ZEALAND",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE MISSISSIPPI RIVER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "ISTANBUL TURKEY",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE ARCTIC CIRCLE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "MADAGASCAR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "BANGKOK THAILAND",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE GREAT LAKES",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "DUBLIN IRELAND",
+  "difficulty": "medium"
+ },
+ {
+  "category": "On the Map",
+  "answer": "ULAANBAATAR MONGOLIA",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE YANGTZE RIVER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "LAKE TITICACA",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE ISTHMUS OF PANAMA",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "REYKJAVIK ICELAND",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE KALAHARI DESERT",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "KATHMANDU NEPAL",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE BOSPHORUS STRAIT",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE MEKONG DELTA",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "ZANZIBAR TANZANIA",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "THE CAUCASUS MOUNTAINS",
+  "difficulty": "hard"
+ },
+ {
+  "category": "On the Map",
+  "answer": "TIERRA DEL FUEGO",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "PEPPERONI PIZZA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CHOCOLATE CHIP COOKIES",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "GRILLED CHEESE SANDWICH",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "HOT APPLE PIE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "ORANGE JUICE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "SCRAMBLED EGGS",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "SPAGHETTI AND MEATBALLS",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "STRAWBERRY MILKSHAKE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "PEANUT BUTTER AND JELLY",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "BUTTERED POPCORN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "FRENCH TOAST",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "ICED TEA WITH LEMON",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CHICKEN NOODLE SOUP",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "BLUEBERRY PANCAKES",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "MACARONI AND CHEESE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "HOT COCOA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "VANILLA ICE CREAM",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "GARLIC BREAD",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "FRUIT SALAD",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CHEESEBURGER AND FRIES",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "BANANA SPLIT",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "TOMATO SOUP",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "PINK LEMONADE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "SPICY BUFFALO WINGS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "SOURDOUGH BREAD",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "BEEF AND BROCCOLI",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CINNAMON ROLLS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "SHRIMP COCKTAIL",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "BLACK BEAN BURRITO",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CARAMEL APPLES",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CLAM CHOWDER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "LEMON MERINGUE PIE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "PULLED PORK SLIDERS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "FRESH SQUEEZED LIMEADE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "EGGPLANT PARMESAN",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CHICKEN POT PIE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "VEGETABLE STIR-FRY",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "BAKED POTATO WITH SOUR CREAM",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "PISTACHIO GELATO",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "SWEET POTATO CASSEROLE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "GINGERBREAD COOKIES",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "MANGO SMOOTHIE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CORNBREAD MUFFINS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "PEACH COBBLER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "SPINACH AND ARTICHOKE DIP",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "HONEY-GLAZED HAM",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "BUTTERNUT SQUASH RISOTTO",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CRISPY PORK DUMPLINGS",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "RASPBERRY CHEESECAKE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "POMEGRANATE SPRITZER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "SHEPHERD'S PIE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "PROSCIUTTO AND MELON",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "BLACKENED CATFISH",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "ROASTED BRUSSELS SPROUTS",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CHAI TEA LATTE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "WILD MUSHROOM RAVIOLI",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CUCUMBER GAZPACHO",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Food & Drink",
+  "answer": "CRANBERRY ORANGE SCONES",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "KITCHEN SINK",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "LIVING ROOM COUCH",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "FRONT DOOR",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "BATHROOM MIRROR",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "CEILING FAN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "TOASTER OVEN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "WASHING MACHINE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "COFFEE TABLE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "REFRIGERATOR MAGNETS",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "BUNK BEDS",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "DOORBELL",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "TELEVISION REMOTE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "LIGHT SWITCH",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "WELCOME MAT",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "SHOWER CURTAIN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "ALARM CLOCK",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "LAUNDRY BASKET",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "GARDEN HOSE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "BOOKSHELF",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "DINNER PLATES",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "THROW PILLOWS",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "VACUUM CLEANER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "MICROWAVE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Around the House",
+  "answer": "LINEN CLOSET",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "SPICE RACK",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "SMOKE DETECTOR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "ROCKING CHAIR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "DISHWASHER DETERGENT",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "CUTTING BOARD",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "WINDOW BLINDS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "FIREPLACE MANTEL",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "JUNK DRAWER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "CLOTHES DRYER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "BATHROOM SCALE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "PICTURE FRAMES",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "KITCHEN TIMER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "CANDLE HOLDERS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "RECLINING ARMCHAIR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "ATTIC STAIRS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "UMBRELLA STAND",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "MEDICINE CABINET",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "DUST PAN AND BROOM",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "PANTRY SHELVES",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "ELECTRIC KETTLE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "NIGHTSTAND LAMP",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "SLIDING GLASS DOOR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Around the House",
+  "answer": "CAST-IRON SKILLET",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "CEDAR HOPE CHEST",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "GRANDFATHER CLOCK",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "RADIATOR COVER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "WATER HEATER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "THERMOSTAT",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "CROCHETED AFGHAN",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "BREAKFAST NOOK",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "WROUGHT-IRON BANISTER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "LAZY SUSAN",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "DEHUMIDIFIER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Around the House",
+  "answer": "CHINA CABINET",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "GOLDEN RETRIEVER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "GIANT PANDA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "SUNFLOWER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "BALD EAGLE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "BUMBLEBEE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "KANGAROO",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "GIRAFFE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "RED ROSE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "POLAR BEAR",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "GOLDFISH",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "BUTTERFLY",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "OAK TREE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "DOLPHIN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "LADYBUG",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "ELEPHANT",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "PENGUIN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "TABBY CAT",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "GRIZZLY BEAR",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "ZEBRA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "PALM TREE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "BLUE WHALE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "BASSET HOUND",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "TULIP",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "HAMMERHEAD SHARK",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "MONARCH BUTTERFLY",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "VENUS FLYTRAP",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "SNOWY OWL",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "SEA TURTLE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "WEEPING WILLOW",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "CHEETAH",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "FLAMINGO",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "HEDGEHOG",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "RACCOON",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "DANDELION",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "ARCTIC FOX",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "HUMMINGBIRD",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "KOALA BEAR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "CHIMPANZEE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "BLACKBERRY BUSH",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "PEACOCK",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "OCTOPUS",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "PORCUPINE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "REDWOOD TREE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "SNAPPING TURTLE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "LAVENDER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "JELLYFISH",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "DUCK-BILLED PLATYPUS",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "KOMODO DRAGON",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "POISON DART FROG",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "NARWHAL",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "AXOLOTL",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "BIRD OF PARADISE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "PRAYING MANTIS",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "SNAPDRAGON",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "CHAMELEON",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "BANYAN TREE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "ARMADILLO",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Living Thing",
+  "answer": "SEA ANEMONE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE EIFFEL TOWER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE STATUE OF LIBERTY",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE GREAT WALL OF CHINA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "BIG BEN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE GOLDEN GATE BRIDGE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "MOUNT RUSHMORE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE PYRAMIDS OF GIZA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE LEANING TOWER OF PISA",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "NIAGARA FALLS",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE TAJ MAHAL",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE WHITE HOUSE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "STONEHENGE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE COLOSSEUM",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE GRAND CANYON",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "TIMES SQUARE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE HOLLYWOOD SIGN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "BUCKINGHAM PALACE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE LINCOLN MEMORIAL",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE SYDNEY OPERA HOUSE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE SPACE NEEDLE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "OLD FAITHFUL",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE EMPIRE STATE BUILDING",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE ARC DE TRIOMPHE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Landmark",
+  "answer": "MACHU PICCHU",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE LOUVRE MUSEUM",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "TOWER BRIDGE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE BRANDENBURG GATE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "CHRIST THE REDEEMER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE GATEWAY ARCH",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE PARTHENON",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE KREMLIN",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "NOTRE DAME CATHEDRAL",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE GREAT SPHINX",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "ALCATRAZ ISLAND",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE WASHINGTON MONUMENT",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE CN TOWER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE ALAMO",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "HOOVER DAM",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "SAINT PETER'S BASILICA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE TOWER OF LONDON",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE ANCIENT CITY OF PETRA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE SISTINE CHAPEL",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE PANAMA CANAL",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE GREAT BARRIER REEF",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "MOUNT FUJI",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE BURJ KHALIFA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Landmark",
+  "answer": "ANGKOR WAT",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "CHICHEN ITZA",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "NEUSCHWANSTEIN CASTLE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE ALHAMBRA",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE MOAI OF EASTER ISLAND",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "SAGRADA FAMILIA",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE FORBIDDEN CITY",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "MONT SAINT-MICHEL",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE PETRONAS TOWERS",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "SAINT BASIL'S CATHEDRAL",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE HAGIA SOPHIA",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "THE ATOMIUM",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Landmark",
+  "answer": "EDINBURGH CASTLE",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "FIREFIGHTER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "SCHOOL TEACHER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "POLICE OFFICER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "DENTIST",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "MAIL CARRIER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "AIRLINE PILOT",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "CHEF",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "FARMER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "NURSE",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "VETERINARIAN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "BUS DRIVER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "LIBRARIAN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "BAKER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "PLUMBER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "ASTRONAUT",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "LIFEGUARD",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "CARPENTER",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "HAIR STYLIST",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "DOCTOR",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "ARTIST",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "MAGICIAN",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "CROSSING GUARD",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "ICE CREAM VENDOR",
+  "difficulty": "easy"
+ },
+ {
+  "category": "Occupation",
+  "answer": "ELECTRICIAN",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "ARCHITECT",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "PHARMACIST",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "PARK RANGER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "WEDDING PHOTOGRAPHER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "FLIGHT ATTENDANT",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "DOG WALKER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "SOUS CHEF",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "TRUCK DRIVER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "ZOOKEEPER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "GRAPHIC DESIGNER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "PERSONAL TRAINER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "FLORIST",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "TAX ACCOUNTANT",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "ORCHESTRA CONDUCTOR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "NEWS ANCHOR",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "TOUR GUIDE",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "LOCKSMITH",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "BEEKEEPER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "BARISTA",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "PIANO TEACHER",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "SURGEON",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "MARINE BIOLOGIST",
+  "difficulty": "medium"
+ },
+ {
+  "category": "Occupation",
+  "answer": "ARCHAEOLOGIST",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "SOMMELIER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "CARTOGRAPHER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "METEOROLOGIST",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "UPHOLSTERER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "TAXIDERMIST",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "STENOGRAPHER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "PALEONTOLOGIST",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "CHIMNEY SWEEP",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "AUCTIONEER",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "BLACKSMITH",
+  "difficulty": "hard"
+ },
+ {
+  "category": "Occupation",
+  "answer": "AIR TRAFFIC CONTROLLER",
+  "difficulty": "hard"
+ }
+]
