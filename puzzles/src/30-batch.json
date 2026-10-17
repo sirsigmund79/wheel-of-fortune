@@ -1,2027 +1,1907 @@
 [
- {
-  "category": "What Are You Doing?",
-  "answer": "BAKING COOKIES WITH GRANDMA",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "BRUSHING MY TEETH",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "WALKING THE DOG",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "TAKING A NAP",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "READING A GOOD BOOK",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "PLANTING TOMATOES",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "WASHING THE CAR",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "FOLDING THE LAUNDRY",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "BUILDING A SANDCASTLE",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "FLYING A KITE",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "MAKING PANCAKES",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "RIDING A BICYCLE",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "PAINTING THE FENCE",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "SINGING IN THE SHOWER",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "FEEDING THE DUCKS",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "JUMPING ON THE TRAMPOLINE",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "RAKING LEAVES",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "ROASTING MARSHMALLOWS",
-  "difficulty": "easy"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "WRAPPING PRESENTS",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "WATCHING THE SUNSET",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "SHOVELING SNOW",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "SKIPPING STONES ACROSS THE LAKE",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "DECORATING THE TREE",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "PACKING FOR VACATION",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "CLEANING OUT THE GARAGE",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "CATCHING FIREFLIES",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "WRITING A THANK-YOU NOTE",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "CARVING A PUMPKIN",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "SORTING THE RECYCLING",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "JUGGLING THREE ORANGES",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "LEARNING TO PLAY UKULELE",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "ORGANIZING THE SPICE RACK",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "KNITTING A COZY SCARF",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "POLISHING THE SILVERWARE",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "STARGAZING ON THE ROOF",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "REARRANGING THE FURNITURE",
-  "difficulty": "medium"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "ALPHABETIZING MY BOOKSHELF",
-  "difficulty": "hard"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "WHITTLING A WOODEN SPOON",
-  "difficulty": "hard"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "UNTANGLING HOLIDAY LIGHTS",
-  "difficulty": "hard"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "BIRDWATCHING AT DAWN",
-  "difficulty": "hard"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "PRACTICING CALLIGRAPHY",
-  "difficulty": "hard"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "REUPHOLSTERING AN OLD CHAIR",
-  "difficulty": "hard"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "PICKLING CUCUMBERS",
-  "difficulty": "hard"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "TRANSPLANTING SUCCULENTS",
-  "difficulty": "hard"
- },
- {
-  "category": "What Are You Doing?",
-  "answer": "DEFROSTING THE FREEZER",
-  "difficulty": "hard"
- },
- {
-  "category": "Fun & Games",
-  "answer": "HIDE-AND-SEEK",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "TAG YOU'RE IT",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "MUSICAL CHAIRS",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "JUMP ROPE",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "BOARD GAME NIGHT",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "SIMON SAYS",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "CARD TRICKS",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "WATER BALLOON FIGHT",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "PILLOW FORT",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "HOPSCOTCH",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "TIC-TAC-TOE",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "FREEZE TAG",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "THREE-LEGGED RACE",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "EGG AND SPOON RACE",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "PIN THE TAIL ON THE DONKEY",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "JIGSAW PUZZLE",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "BUBBLE BLOWING CONTEST",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "SCAVENGER HUNT",
-  "difficulty": "easy"
- },
- {
-  "category": "Fun & Games",
-  "answer": "CHARADES",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "DUCK DUCK GOOSE",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "SACK RACE",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "PAPER AIRPLANES",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "TREASURE MAP",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "RED LIGHT GREEN LIGHT",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "CONNECT THE DOTS",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "CROSSWORD PUZZLE",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "TWENTY QUESTIONS",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "LIMBO CONTEST",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "MARBLES",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "HORSESHOES",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "TUG-OF-WAR",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "CROQUET ON THE LAWN",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "STACKING CUPS",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "PICTIONARY STYLE SKETCHING",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "TRIVIA TOURNAMENT",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "CAT'S CRADLE",
-  "difficulty": "medium"
- },
- {
-  "category": "Fun & Games",
-  "answer": "SHUFFLEBOARD",
-  "difficulty": "hard"
- },
- {
-  "category": "Fun & Games",
-  "answer": "JACKS AND A RUBBER BALL",
-  "difficulty": "hard"
- },
- {
-  "category": "Fun & Games",
-  "answer": "TIDDLYWINKS",
-  "difficulty": "hard"
- },
- {
-  "category": "Fun & Games",
-  "answer": "WORD SEARCH",
-  "difficulty": "hard"
- },
- {
-  "category": "Fun & Games",
-  "answer": "LAWN BOWLING LEAGUE",
-  "difficulty": "hard"
- },
- {
-  "category": "Fun & Games",
-  "answer": "BACKGAMMON BOARD",
-  "difficulty": "hard"
- },
- {
-  "category": "Fun & Games",
-  "answer": "DOMINO TOPPLING",
-  "difficulty": "hard"
- },
- {
-  "category": "Fun & Games",
-  "answer": "SPELLING BEE",
-  "difficulty": "hard"
- },
- {
-  "category": "Fun & Games",
-  "answer": "KICK THE CAN",
-  "difficulty": "hard"
- },
- {
-  "category": "Event",
-  "answer": "BIRTHDAY PARTY",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "SURPRISE PARTY",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "SCHOOL TALENT SHOW",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "FAMILY REUNION",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "BACKYARD BARBECUE",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "SUMMER BLOCK PARTY",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "WEDDING RECEPTION",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "SCIENCE FAIR",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "BAKE SALE",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "COSTUME PARADE",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "FOURTH OF JULY PICNIC",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "FIREWORKS SHOW",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "GRADUATION CEREMONY",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "COUNTY FAIR",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "NEW YEAR'S EVE COUNTDOWN",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "SPRING CLEANING DAY",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "CHILI COOK-OFF",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "GARAGE SALE",
-  "difficulty": "easy"
- },
- {
-  "category": "Event",
-  "answer": "FARMERS MARKET",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "PIE EATING CONTEST",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "OPENING NIGHT",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "HOMECOMING DANCE",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "BOOK SIGNING",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "CHARITY FUN RUN",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "SPELLING BEE FINALS",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "RIBBON CUTTING CEREMONY",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "HOT AIR BALLOON FESTIVAL",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "PANCAKE BREAKFAST FUNDRAISER",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "SNOW DAY",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "BABY SHOWER",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "HOUSEWARMING PARTY",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "SAND SCULPTURE CONTEST",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "MOONLIGHT HAYRIDE",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "GOLDEN ANNIVERSARY",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "QUILTING BEE",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "TOWN HALL MEETING",
-  "difficulty": "medium"
- },
- {
-  "category": "Event",
-  "answer": "SOLAR ECLIPSE VIEWING",
-  "difficulty": "hard"
- },
- {
-  "category": "Event",
-  "answer": "MIDNIGHT MOVIE PREMIERE",
-  "difficulty": "hard"
- },
- {
-  "category": "Event",
-  "answer": "RETIREMENT LUNCHEON",
-  "difficulty": "hard"
- },
- {
-  "category": "Event",
-  "answer": "GROUNDBREAKING CEREMONY",
-  "difficulty": "hard"
- },
- {
-  "category": "Event",
-  "answer": "REGATTA ON THE HARBOR",
-  "difficulty": "hard"
- },
- {
-  "category": "Event",
-  "answer": "LANTERN FESTIVAL",
-  "difficulty": "hard"
- },
- {
-  "category": "Event",
-  "answer": "SCAVENGER HUNT FINALE",
-  "difficulty": "hard"
- },
- {
-  "category": "Event",
-  "answer": "TRACTOR PULL",
-  "difficulty": "hard"
- },
- {
-  "category": "Event",
-  "answer": "MAPLE SYRUP FESTIVAL",
-  "difficulty": "hard"
- },
- {
-  "category": "Title",
-  "answer": "THE LAST TRAIN TO NOWHERE",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "MIDNIGHT IN THE GARDEN SHED",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "THE GIRL WHO COUNTED STARS",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "A SUMMER BY THE LAKE",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "THE SECRET OF WILLOW CREEK",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "HOME FOR THE HOLIDAYS AGAIN",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "THE DOG WHO SAVED CHRISTMAS",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "DANCING ON THE MOON",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "THE LITTLE RED LIGHTHOUSE",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "A NIGHT AT THE DINER",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "RETURN TO MAPLE STREET",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "THE CAT IN THE ATTIC",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "THE KING OF SANDWICH ISLAND",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "TALES FROM THE TREEHOUSE",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "THE ROBOT WHO LEARNED TO LAUGH",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "WHISPERS IN THE WHEAT FIELD",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "THE GREAT PANCAKE MYSTERY",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "UNDER A PAPER MOON TONIGHT",
-  "difficulty": "easy"
- },
- {
-  "category": "Title",
-  "answer": "THE BAKER'S DOZEN DETECTIVES",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "LETTERS FROM GRANDPA",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "THE ISLAND OF LOST SOCKS",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "WHEN THE RIVER SINGS",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "A RECIPE FOR TROUBLE",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "THE HAUNTED HARDWARE STORE",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "SEVEN DAYS IN SEPTEMBER",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "THE LONG ROAD TO TUCSON",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "THE KEEPER OF THE CLOCKS",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "CHASING THE NORTHERN LIGHTS",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "THE MAPMAKER'S DAUGHTER",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "GHOSTS OF THE GRAND HOTEL",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "A SONG FOR THE SPARROWS",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "THE ACCIDENTAL ASTRONAUT",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "BENEATH THE COPPER SKY",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "THE CURIOUS CASE OF THE TEAPOT",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "FAREWELL TO FOGGY HARBOR",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "THE LANTERN IN THE WINDOW",
-  "difficulty": "medium"
- },
- {
-  "category": "Title",
-  "answer": "THE CARTOGRAPHER'S SECRET",
-  "difficulty": "hard"
- },
- {
-  "category": "Title",
-  "answer": "ECHOES OF A SILVER CANYON",
-  "difficulty": "hard"
- },
- {
-  "category": "Title",
-  "answer": "THE MILLINER'S APPRENTICE",
-  "difficulty": "hard"
- },
- {
-  "category": "Title",
-  "answer": "A LULLABY FOR THE LIGHTHOUSE",
-  "difficulty": "hard"
- },
- {
-  "category": "Title",
-  "answer": "THE CLOCKWORK ORCHARD",
-  "difficulty": "hard"
- },
- {
-  "category": "Title",
-  "answer": "REQUIEM FOR A RUSTY TRUMPET",
-  "difficulty": "hard"
- },
- {
-  "category": "Title",
-  "answer": "THE ALCHEMIST OF ELM STREET",
-  "difficulty": "hard"
- },
- {
-  "category": "Title",
-  "answer": "CHRONICLES OF THE QUIET VALLEY",
-  "difficulty": "hard"
- },
- {
-  "category": "Title",
-  "answer": "THE UMBRELLA THIEF OF PARIS",
-  "difficulty": "hard"
- },
- {
-  "category": "Person",
-  "answer": "SCHOOL BUS DRIVER",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "LUNCH LADY",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "MAIL CARRIER",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "NEXT-DOOR NEIGHBOR",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "CROSSING GUARD",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "SOCCER COACH",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "FAVORITE AUNT",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "BEST FRIEND",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "CAMP COUNSELOR",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "LIFEGUARD",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "DOG WALKER",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "BABYSITTER",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "SUBSTITUTE TEACHER",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "ICE CREAM TRUCK DRIVER",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "LITTLE BROTHER",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "TOUR GUIDE",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "WEDDING PLANNER",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "PERSONAL TRAINER",
-  "difficulty": "easy"
- },
- {
-  "category": "Person",
-  "answer": "FIRE CHIEF",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "TOWN MAYOR",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "NIGHT WATCHMAN",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "FLIGHT ATTENDANT",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "PARK RANGER",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "SPELLING BEE CHAMPION",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "CLASS PRESIDENT",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "TEAM CAPTAIN",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "MASTER OF CEREMONIES",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "VALEDICTORIAN",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "HEAD CHEF",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "MARATHON RUNNER",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "WEATHER FORECASTER",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "STORY TIME LIBRARIAN",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "MARINE BIOLOGIST",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "CHIMNEY SWEEP",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "BLACKSMITH",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "LIGHTHOUSE KEEPER",
-  "difficulty": "medium"
- },
- {
-  "category": "Person",
-  "answer": "TOWN CRIER",
-  "difficulty": "hard"
- },
- {
-  "category": "Person",
-  "answer": "PIANO TUNER",
-  "difficulty": "hard"
- },
- {
-  "category": "Person",
-  "answer": "CARTOGRAPHER",
-  "difficulty": "hard"
- },
- {
-  "category": "Person",
-  "answer": "ARCHAEOLOGIST",
-  "difficulty": "hard"
- },
- {
-  "category": "Person",
-  "answer": "SOMMELIER",
-  "difficulty": "hard"
- },
- {
-  "category": "Person",
-  "answer": "TAXIDERMIST",
-  "difficulty": "hard"
- },
- {
-  "category": "Person",
-  "answer": "UPHOLSTERER",
-  "difficulty": "hard"
- },
- {
-  "category": "Person",
-  "answer": "GLASSBLOWER",
-  "difficulty": "hard"
- },
- {
-  "category": "Person",
-  "answer": "TOASTMASTER",
-  "difficulty": "hard"
- },
- {
-  "category": "People",
-  "answer": "NEW NEIGHBORS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "PROUD PARENTS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "BEST FRIENDS FOREVER",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "TWIN SISTERS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "COUSINS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "GRANDPARENTS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "SOCCER MOMS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "CAMPERS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "FANS IN THE STANDS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "FIRST GRADERS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "HONEYMOONERS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "TOURISTS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "CAROLERS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "BRIDESMAIDS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "CLASSMATES",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "PARADE MARSHALS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "ROOMMATES",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "BACKUP DANCERS",
-  "difficulty": "easy"
- },
- {
-  "category": "People",
-  "answer": "MARCHING BAND MEMBERS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "CHEERLEADERS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "SNOWBIRDS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "HIKERS ON THE TRAIL",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "BOOK CLUB MEMBERS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "STAGEHANDS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "BEEKEEPERS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "GARDEN CLUB VOLUNTEERS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "EARLY RISERS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "NIGHT OWLS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "PEN PALS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "BARBERSHOP QUARTET",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "JURY MEMBERS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "DINNER GUESTS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "STAMP COLLECTORS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "STORM CHASERS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "CROSSWORD ENTHUSIASTS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "WINDOW SHOPPERS",
-  "difficulty": "medium"
- },
- {
-  "category": "People",
-  "answer": "SQUARE DANCERS",
-  "difficulty": "hard"
- },
- {
-  "category": "People",
-  "answer": "TIGHTROPE WALKERS",
-  "difficulty": "hard"
- },
- {
-  "category": "People",
-  "answer": "LUMBERJACKS",
-  "difficulty": "hard"
- },
- {
-  "category": "People",
-  "answer": "TRAPEZE ARTISTS",
-  "difficulty": "hard"
- },
- {
-  "category": "People",
-  "answer": "SPELUNKERS",
-  "difficulty": "hard"
- },
- {
-  "category": "People",
-  "answer": "MINSTRELS",
-  "difficulty": "hard"
- },
- {
-  "category": "People",
-  "answer": "NEWLYWEDS",
-  "difficulty": "hard"
- },
- {
-  "category": "People",
-  "answer": "GLOBETROTTERS",
-  "difficulty": "hard"
- },
- {
-  "category": "People",
-  "answer": "WOODWORKERS",
-  "difficulty": "hard"
- },
- {
-  "category": "Character",
-  "answer": "A GRUMPY OLD WIZARD",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A BRAVE LITTLE KNIGHT",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A WICKED STEPMOTHER",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A FRIENDLY GIANT",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A SNEAKY PIRATE",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "THE FAIRY GODMOTHER",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A TALKING TEDDY BEAR",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "THE BIG BAD WOLF",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A SLEEPY DRAGON",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A MAD SCIENTIST",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A GOOD WITCH",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A TOOTH FAIRY",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A SPACE COWBOY",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A HAUNTED SCARECROW",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "THE EVIL QUEEN",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A LOVESICK FROG PRINCE",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A CLUMSY DETECTIVE",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A JOLLY SNOWMAN",
-  "difficulty": "easy"
- },
- {
-  "category": "Character",
-  "answer": "A RETIRED SUPERHERO",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A NOBLE KING",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A MISCHIEVOUS ELF",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A WISE OLD OWL",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A FORGETFUL GENIE",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A TIME TRAVELER",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A LONELY ROBOT",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A SINGING MERMAID",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A SWASHBUCKLING CAPTAIN",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A CRANKY TROLL UNDER A BRIDGE",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A GHOSTLY BUTLER",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A COWARDLY LION TAMER",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A DASHING HIGHWAYMAN",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A VILLAIN WITH A MUSTACHE",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A SHY SEA MONSTER",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A CURIOUS ALIEN VISITOR",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "THE COURT JESTER",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "A HOODED ARCHER",
-  "difficulty": "medium"
- },
- {
-  "category": "Character",
-  "answer": "AN ABSENT-MINDED PROFESSOR",
-  "difficulty": "hard"
- },
- {
-  "category": "Character",
-  "answer": "A WANDERING MINSTREL",
-  "difficulty": "hard"
- },
- {
-  "category": "Character",
-  "answer": "A SCHEMING VIZIER",
-  "difficulty": "hard"
- },
- {
-  "category": "Character",
-  "answer": "A GRIZZLED PROSPECTOR",
-  "difficulty": "hard"
- },
- {
-  "category": "Character",
-  "answer": "A SARDONIC SIDEKICK",
-  "difficulty": "hard"
- },
- {
-  "category": "Character",
-  "answer": "A HERMIT IN THE MOUNTAINS",
-  "difficulty": "hard"
- },
- {
-  "category": "Character",
-  "answer": "AN ENCHANTED TEAPOT",
-  "difficulty": "hard"
- },
- {
-  "category": "Character",
-  "answer": "A MELANCHOLY GARGOYLE",
-  "difficulty": "hard"
- },
- {
-  "category": "Character",
-  "answer": "A RELUCTANT CHOSEN ONE",
-  "difficulty": "hard"
- },
- {
-  "category": "Show Biz",
-  "answer": "RED CARPET",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "STANDING OVATION",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "MOVIE STAR",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "BEHIND THE SCENES",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "OPENING NIGHT JITTERS",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "BREAK A LEG",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "LIGHTS CAMERA ACTION",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "BOX OFFICE HIT",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "SOLD-OUT SHOW",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "ENCORE PERFORMANCE",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "DRESS REHEARSAL",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "STAGE DOOR",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "CURTAIN CALL",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "BACKSTAGE PASS",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "AUTOGRAPH",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "TALENT SCOUT",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "STUNT DOUBLE",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "SPECIAL EFFECTS",
-  "difficulty": "easy"
- },
- {
-  "category": "Show Biz",
-  "answer": "SPOTLIGHT",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "THEME SONG",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "CASTING CALL",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "SEASON FINALE",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "BLOOPER REEL",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "SOUNDTRACK",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "LEADING LADY",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "STAND-UP COMEDY",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "SCREEN TEST",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "DIRECTOR'S CHAIR",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "PLOT TWIST",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "STAGE FRIGHT",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "UNDERSTUDY",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "MATINEE",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "CLIFFHANGER ENDING",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "STUDIO AUDIENCE",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "CUE CARDS",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "ORCHESTRA PIT",
-  "difficulty": "medium"
- },
- {
-  "category": "Show Biz",
-  "answer": "COSTUME DEPARTMENT",
-  "difficulty": "hard"
- },
- {
-  "category": "Show Biz",
-  "answer": "SLAPSTICK",
-  "difficulty": "hard"
- },
- {
-  "category": "Show Biz",
-  "answer": "STAGE MANAGER",
-  "difficulty": "hard"
- },
- {
-  "category": "Show Biz",
-  "answer": "TELEPROMPTER",
-  "difficulty": "hard"
- },
- {
-  "category": "Show Biz",
-  "answer": "SOUND STAGE",
-  "difficulty": "hard"
- },
- {
-  "category": "Show Biz",
-  "answer": "PROSCENIUM ARCH",
-  "difficulty": "hard"
- },
- {
-  "category": "Show Biz",
-  "answer": "MONOLOGUE",
-  "difficulty": "hard"
- },
- {
-  "category": "Show Biz",
-  "answer": "CLAPPERBOARD",
-  "difficulty": "hard"
- },
- {
-  "category": "Show Biz",
-  "answer": "TABLE READ",
-  "difficulty": "hard"
- },
- {
-  "category": "Proper Name",
-  "answer": "GEORGE WASHINGTON",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "ABRAHAM LINCOLN",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "BENJAMIN FRANKLIN",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "AMELIA EARHART",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "ALBERT EINSTEIN",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "CHRISTOPHER COLUMBUS",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "FLORENCE NIGHTINGALE",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "THOMAS EDISON",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "MARIE CURIE",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "WILLIAM SHAKESPEARE",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "CLEOPATRA",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "NAPOLEON BONAPARTE",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "SUSAN B ANTHONY",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "LEONARDO DA VINCI",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "MARK TWAIN",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "JULIUS CAESAR",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "ISAAC NEWTON",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "ELEANOR ROOSEVELT",
-  "difficulty": "easy"
- },
- {
-  "category": "Proper Name",
-  "answer": "HARRIET TUBMAN",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "WOLFGANG AMADEUS MOZART",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "JOAN OF ARC",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "GALILEO GALILEI",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "BETSY ROSS",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "PAUL REVERE",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "QUEEN VICTORIA",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "LUDWIG VAN BEETHOVEN",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "CHARLES DARWIN",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "HELEN KELLER",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "ALEXANDER THE GREAT",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "VINCENT VAN GOGH",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "JANE AUSTEN",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "LEWIS AND CLARK",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "SACAGAWEA",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "MARCO POLO",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "NIKOLA TESLA",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "ADA LOVELACE",
-  "difficulty": "medium"
- },
- {
-  "category": "Proper Name",
-  "answer": "JOHANN SEBASTIAN BACH",
-  "difficulty": "hard"
- },
- {
-  "category": "Proper Name",
-  "answer": "CHARLES DICKENS",
-  "difficulty": "hard"
- },
- {
-  "category": "Proper Name",
-  "answer": "CATHERINE THE GREAT",
-  "difficulty": "hard"
- },
- {
-  "category": "Proper Name",
-  "answer": "FERDINAND MAGELLAN",
-  "difficulty": "hard"
- },
- {
-  "category": "Proper Name",
-  "answer": "CONFUCIUS",
-  "difficulty": "hard"
- },
- {
-  "category": "Proper Name",
-  "answer": "GREGOR MENDEL",
-  "difficulty": "hard"
- },
- {
-  "category": "Proper Name",
-  "answer": "LOUIS PASTEUR",
-  "difficulty": "hard"
- },
- {
-  "category": "Proper Name",
-  "answer": "HANS CHRISTIAN ANDERSEN",
-  "difficulty": "hard"
- },
- {
-  "category": "Proper Name",
-  "answer": "JOHANNES GUTENBERG",
-  "difficulty": "hard"
- }
+  {
+    "category": "What Are You Doing?",
+    "answer": "BAKING COOKIES WITH GRANDMA",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "BRUSHING MY TEETH",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "TAKING A NAP",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "READING A GOOD BOOK",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "PLANTING TOMATOES",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "WASHING THE CAR",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "FOLDING THE LAUNDRY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "FLYING A KITE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "MAKING PANCAKES",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "RIDING A BICYCLE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "PAINTING THE FENCE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "SINGING IN THE SHOWER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "FEEDING THE DUCKS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "JUMPING ON THE TRAMPOLINE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "RAKING LEAVES",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "ROASTING MARSHMALLOWS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "WRAPPING PRESENTS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "WATCHING THE SUNSET",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "SHOVELING SNOW",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "SKIPPING STONES ACROSS THE LAKE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "DECORATING THE TREE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "PACKING FOR VACATION",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "CLEANING OUT THE GARAGE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "CATCHING FIREFLIES",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "WRITING A THANK-YOU NOTE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "CARVING A PUMPKIN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "SORTING THE RECYCLING",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "JUGGLING THREE ORANGES",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "LEARNING TO PLAY UKULELE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "ORGANIZING THE SPICE RACK",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "KNITTING A COZY SCARF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "POLISHING THE SILVERWARE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "STARGAZING ON THE ROOF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "REARRANGING THE FURNITURE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "ALPHABETIZING MY BOOKSHELF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "WHITTLING A WOODEN SPOON",
+    "difficulty": "hard"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "UNTANGLING HOLIDAY LIGHTS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "BIRDWATCHING AT DAWN",
+    "difficulty": "hard"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "PRACTICING CALLIGRAPHY",
+    "difficulty": "hard"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "REUPHOLSTERING AN OLD CHAIR",
+    "difficulty": "hard"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "PICKLING CUCUMBERS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "TRANSPLANTING SUCCULENTS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "What Are You Doing?",
+    "answer": "DEFROSTING THE FREEZER",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "TAG YOU'RE IT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "MUSICAL CHAIRS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "JUMP ROPE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "BOARD GAME NIGHT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "SIMON SAYS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "CARD TRICKS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "WATER BALLOON FIGHT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "PILLOW FORT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "HOPSCOTCH",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "TIC-TAC-TOE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "FREEZE TAG",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "THREE-LEGGED RACE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "EGG AND SPOON RACE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "PIN THE TAIL ON THE DONKEY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "BUBBLE BLOWING CONTEST",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "SCAVENGER HUNT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "CHARADES",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "DUCK DUCK GOOSE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "SACK RACE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "PAPER AIRPLANES",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "RED LIGHT GREEN LIGHT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "CONNECT THE DOTS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "TWENTY QUESTIONS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "LIMBO CONTEST",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "HORSESHOES",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "TUG-OF-WAR",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "CROQUET ON THE LAWN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "STACKING CUPS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "PICTIONARY STYLE SKETCHING",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "TRIVIA TOURNAMENT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "CAT'S CRADLE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "SHUFFLEBOARD",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "JACKS AND A RUBBER BALL",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "TIDDLYWINKS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "WORD SEARCH",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "LAWN BOWLING LEAGUE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "BACKGAMMON BOARD",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "DOMINO TOPPLING",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "SPELLING BEE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Fun & Games",
+    "answer": "KICK THE CAN",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Event",
+    "answer": "BIRTHDAY PARTY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "SURPRISE PARTY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "SCHOOL TALENT SHOW",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "FAMILY REUNION",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "BACKYARD BARBECUE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "SUMMER BLOCK PARTY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "WEDDING RECEPTION",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "SCIENCE FAIR",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "BAKE SALE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "COSTUME PARADE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "FOURTH OF JULY PICNIC",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "FIREWORKS SHOW",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "GRADUATION CEREMONY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "COUNTY FAIR",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "NEW YEAR'S EVE COUNTDOWN",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "SPRING CLEANING DAY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "CHILI COOK-OFF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "GARAGE SALE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Event",
+    "answer": "FARMERS MARKET",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "PIE EATING CONTEST",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "OPENING NIGHT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "HOMECOMING DANCE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "BOOK SIGNING",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "CHARITY FUN RUN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "SPELLING BEE FINALS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "RIBBON CUTTING CEREMONY",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "HOT AIR BALLOON FESTIVAL",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "PANCAKE BREAKFAST FUNDRAISER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "SNOW DAY",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "BABY SHOWER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "HOUSEWARMING PARTY",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "SAND SCULPTURE CONTEST",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "MOONLIGHT HAYRIDE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "GOLDEN ANNIVERSARY",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "QUILTING BEE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "TOWN HALL MEETING",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Event",
+    "answer": "SOLAR ECLIPSE VIEWING",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Event",
+    "answer": "MIDNIGHT MOVIE PREMIERE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Event",
+    "answer": "RETIREMENT LUNCHEON",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Event",
+    "answer": "GROUNDBREAKING CEREMONY",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Event",
+    "answer": "REGATTA ON THE HARBOR",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Event",
+    "answer": "LANTERN FESTIVAL",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Event",
+    "answer": "SCAVENGER HUNT FINALE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Event",
+    "answer": "TRACTOR PULL",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Event",
+    "answer": "MAPLE SYRUP FESTIVAL",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Title",
+    "answer": "THE LAST TRAIN TO NOWHERE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "MIDNIGHT IN THE GARDEN SHED",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "THE GIRL WHO COUNTED STARS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "A SUMMER BY THE LAKE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "THE SECRET OF WILLOW CREEK",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "HOME FOR THE HOLIDAYS AGAIN",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "THE DOG WHO SAVED CHRISTMAS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "DANCING ON THE MOON",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "THE LITTLE RED LIGHTHOUSE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "A NIGHT AT THE DINER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "RETURN TO MAPLE STREET",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "THE CAT IN THE ATTIC",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "THE KING OF SANDWICH ISLAND",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "TALES FROM THE TREEHOUSE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "THE ROBOT WHO LEARNED TO LAUGH",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "WHISPERS IN THE WHEAT FIELD",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "THE GREAT PANCAKE MYSTERY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "UNDER A PAPER MOON TONIGHT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Title",
+    "answer": "THE BAKER'S DOZEN DETECTIVES",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "LETTERS FROM GRANDPA",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "THE ISLAND OF LOST SOCKS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "WHEN THE RIVER SINGS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "A RECIPE FOR TROUBLE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "THE HAUNTED HARDWARE STORE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "SEVEN DAYS IN SEPTEMBER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "THE LONG ROAD TO TUCSON",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "THE KEEPER OF THE CLOCKS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "CHASING THE NORTHERN LIGHTS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "THE MAPMAKER'S DAUGHTER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "GHOSTS OF THE GRAND HOTEL",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "A SONG FOR THE SPARROWS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "THE ACCIDENTAL ASTRONAUT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "BENEATH THE COPPER SKY",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "THE CURIOUS CASE OF THE TEAPOT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "FAREWELL TO FOGGY HARBOR",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "THE LANTERN IN THE WINDOW",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Title",
+    "answer": "THE CARTOGRAPHER'S SECRET",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Title",
+    "answer": "ECHOES OF A SILVER CANYON",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Title",
+    "answer": "THE MILLINER'S APPRENTICE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Title",
+    "answer": "A LULLABY FOR THE LIGHTHOUSE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Title",
+    "answer": "THE CLOCKWORK ORCHARD",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Title",
+    "answer": "REQUIEM FOR A RUSTY TRUMPET",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Title",
+    "answer": "THE ALCHEMIST OF ELM STREET",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Title",
+    "answer": "CHRONICLES OF THE QUIET VALLEY",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Title",
+    "answer": "THE UMBRELLA THIEF OF PARIS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Person",
+    "answer": "SCHOOL BUS DRIVER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "LUNCH LADY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "NEXT-DOOR NEIGHBOR",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "SOCCER COACH",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "FAVORITE AUNT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "BEST FRIEND",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "CAMP COUNSELOR",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "BABYSITTER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "SUBSTITUTE TEACHER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "ICE CREAM TRUCK DRIVER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "LITTLE BROTHER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "WEDDING PLANNER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Person",
+    "answer": "FIRE CHIEF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "TOWN MAYOR",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "NIGHT WATCHMAN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "SPELLING BEE CHAMPION",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "CLASS PRESIDENT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "TEAM CAPTAIN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "MASTER OF CEREMONIES",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "VALEDICTORIAN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "HEAD CHEF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "MARATHON RUNNER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "WEATHER FORECASTER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "STORY TIME LIBRARIAN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "LIGHTHOUSE KEEPER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Person",
+    "answer": "TOWN CRIER",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Person",
+    "answer": "PIANO TUNER",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Person",
+    "answer": "GLASSBLOWER",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Person",
+    "answer": "TOASTMASTER",
+    "difficulty": "hard"
+  },
+  {
+    "category": "People",
+    "answer": "NEW NEIGHBORS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "PROUD PARENTS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "BEST FRIENDS FOREVER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "TWIN SISTERS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "COUSINS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "GRANDPARENTS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "SOCCER MOMS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "CAMPERS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "FANS IN THE STANDS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "FIRST GRADERS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "HONEYMOONERS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "TOURISTS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "CAROLERS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "BRIDESMAIDS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "CLASSMATES",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "PARADE MARSHALS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "ROOMMATES",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "BACKUP DANCERS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "People",
+    "answer": "MARCHING BAND MEMBERS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "CHEERLEADERS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "SNOWBIRDS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "HIKERS ON THE TRAIL",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "BOOK CLUB MEMBERS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "STAGEHANDS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "BEEKEEPERS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "GARDEN CLUB VOLUNTEERS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "EARLY RISERS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "NIGHT OWLS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "PEN PALS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "BARBERSHOP QUARTET",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "JURY MEMBERS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "DINNER GUESTS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "STAMP COLLECTORS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "STORM CHASERS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "CROSSWORD ENTHUSIASTS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "WINDOW SHOPPERS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "People",
+    "answer": "SQUARE DANCERS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "People",
+    "answer": "TIGHTROPE WALKERS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "People",
+    "answer": "LUMBERJACKS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "People",
+    "answer": "TRAPEZE ARTISTS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "People",
+    "answer": "SPELUNKERS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "People",
+    "answer": "MINSTRELS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "People",
+    "answer": "NEWLYWEDS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "People",
+    "answer": "GLOBETROTTERS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "People",
+    "answer": "WOODWORKERS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Character",
+    "answer": "A GRUMPY OLD WIZARD",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A BRAVE LITTLE KNIGHT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A WICKED STEPMOTHER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A FRIENDLY GIANT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A SNEAKY PIRATE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "THE FAIRY GODMOTHER",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A TALKING TEDDY BEAR",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "THE BIG BAD WOLF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A SLEEPY DRAGON",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A MAD SCIENTIST",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A GOOD WITCH",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A TOOTH FAIRY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A SPACE COWBOY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A HAUNTED SCARECROW",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "THE EVIL QUEEN",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A LOVESICK FROG PRINCE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A CLUMSY DETECTIVE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A JOLLY SNOWMAN",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Character",
+    "answer": "A RETIRED SUPERHERO",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A NOBLE KING",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A MISCHIEVOUS ELF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A WISE OLD OWL",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A FORGETFUL GENIE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A TIME TRAVELER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A LONELY ROBOT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A SINGING MERMAID",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A SWASHBUCKLING CAPTAIN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A CRANKY TROLL UNDER A BRIDGE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A GHOSTLY BUTLER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A COWARDLY LION TAMER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A DASHING HIGHWAYMAN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A VILLAIN WITH A MUSTACHE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A SHY SEA MONSTER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A CURIOUS ALIEN VISITOR",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "THE COURT JESTER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "A HOODED ARCHER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Character",
+    "answer": "AN ABSENT-MINDED PROFESSOR",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Character",
+    "answer": "A WANDERING MINSTREL",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Character",
+    "answer": "A SCHEMING VIZIER",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Character",
+    "answer": "A GRIZZLED PROSPECTOR",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Character",
+    "answer": "A SARDONIC SIDEKICK",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Character",
+    "answer": "A HERMIT IN THE MOUNTAINS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Character",
+    "answer": "AN ENCHANTED TEAPOT",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Character",
+    "answer": "A MELANCHOLY GARGOYLE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Character",
+    "answer": "A RELUCTANT CHOSEN ONE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "RED CARPET",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "STANDING OVATION",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "MOVIE STAR",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "BEHIND THE SCENES",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "OPENING NIGHT JITTERS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "LIGHTS CAMERA ACTION",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "BOX OFFICE HIT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "SOLD-OUT SHOW",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "ENCORE PERFORMANCE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "DRESS REHEARSAL",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "STAGE DOOR",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "CURTAIN CALL",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "BACKSTAGE PASS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "AUTOGRAPH",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "TALENT SCOUT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "STUNT DOUBLE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "SPECIAL EFFECTS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "SPOTLIGHT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "THEME SONG",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "CASTING CALL",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "SEASON FINALE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "BLOOPER REEL",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "SOUNDTRACK",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "LEADING LADY",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "STAND-UP COMEDY",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "SCREEN TEST",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "DIRECTOR'S CHAIR",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "PLOT TWIST",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "STAGE FRIGHT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "UNDERSTUDY",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "MATINEE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "CLIFFHANGER ENDING",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "STUDIO AUDIENCE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "CUE CARDS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "ORCHESTRA PIT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "COSTUME DEPARTMENT",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "SLAPSTICK",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "STAGE MANAGER",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "TELEPROMPTER",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "SOUND STAGE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "PROSCENIUM ARCH",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "MONOLOGUE",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "CLAPPERBOARD",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Show Biz",
+    "answer": "TABLE READ",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "GEORGE WASHINGTON",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "ABRAHAM LINCOLN",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "BENJAMIN FRANKLIN",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "AMELIA EARHART",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "ALBERT EINSTEIN",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "CHRISTOPHER COLUMBUS",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "FLORENCE NIGHTINGALE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "THOMAS EDISON",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "MARIE CURIE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "WILLIAM SHAKESPEARE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "CLEOPATRA",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "NAPOLEON BONAPARTE",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "SUSAN B ANTHONY",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "LEONARDO DA VINCI",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "MARK TWAIN",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "JULIUS CAESAR",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "ISAAC NEWTON",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "ELEANOR ROOSEVELT",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "HARRIET TUBMAN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "WOLFGANG AMADEUS MOZART",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "JOAN OF ARC",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "GALILEO GALILEI",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "BETSY ROSS",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "PAUL REVERE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "QUEEN VICTORIA",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "LUDWIG VAN BEETHOVEN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "CHARLES DARWIN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "HELEN KELLER",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "ALEXANDER THE GREAT",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "VINCENT VAN GOGH",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "JANE AUSTEN",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "LEWIS AND CLARK",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "SACAGAWEA",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "MARCO POLO",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "NIKOLA TESLA",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "ADA LOVELACE",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "JOHANN SEBASTIAN BACH",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "CHARLES DICKENS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "CATHERINE THE GREAT",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "FERDINAND MAGELLAN",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "CONFUCIUS",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "GREGOR MENDEL",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "LOUIS PASTEUR",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "HANS CHRISTIAN ANDERSEN",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Proper Name",
+    "answer": "JOHANNES GUTENBERG",
+    "difficulty": "hard"
+  }
 ]
