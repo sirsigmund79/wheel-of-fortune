@@ -1,0 +1,93 @@
+/* Spin & Solve — shared visual identity (TV + phone).
+   Every colour lives here as a token so the whole theme can be swapped in one place.
+   Load fonts with:
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;800;900&display=swap"> */
+
+:root {
+  color-scheme: dark;
+
+  /* typography */
+  --font-display: "Fredoka", "Baloo 2", "Arial Rounded MT Bold", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Nunito", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-tile: "Fredoka", "Arial Black", system-ui, sans-serif;
+
+  /* backgrounds (midnight / indigo) */
+  --bg-0: #0b0a24;          /* deepest */
+  --bg-1: #151338;          /* page */
+  --bg-2: #211d55;          /* raised */
+  --bg-glow: #3a2f8f;       /* radial glow behind content */
+  --surface: #1c1948;       /* cards */
+  --surface-2: #2a2566;     /* card hover / highlight */
+  --surface-line: #3b3584;  /* borders */
+  --scrim: rgba(6, 5, 20, 0.72);
+
+  /* ink */
+  --ink: #fff8ec;
+  --ink-dim: #b8b2e0;
+  --ink-faint: #6e68a8;
+  --ink-on-accent: #1d1033;
+
+  /* accents (warm gold / coral) */
+  --gold: #ffc847;
+  --gold-deep: #e69a12;
+  --gold-soft: #ffe39a;
+  --coral: #ff6b5e;
+  --coral-deep: #d9443a;
+  --teal: #2fd6c3;
+  --violet: #9b7bff;
+  --sky: #56b7ff;
+
+  /* semantic */
+  --success: #4ee07a;
+  --danger: #ff4d5e;
+  --warning: #ffb02e;
+  --focus: var(--gold);
+
+  /* board */
+  --board-frame: #2a2470;
+  --board-frame-edge: #ffc847;
+  --tile-empty: #2b2a6e;          /* no tile in this slot */
+  --tile-empty-edge: #35338a;
+  --tile-blank: #f7f4ea;          /* lit tile, letter hidden */
+  --tile-face: #ffffff;           /* lit tile with letter */
+  --tile-ink: #17143a;
+  --tile-lit: #3d8bff;            /* "being revealed" flash */
+  --tile-lit-glow: #8cc2ff;
+  --tile-edge: #c9c3a8;
+
+  /* wheel wedges (cycled for cash values) */
+  --wedge-1: #ff6b5e;
+  --wedge-2: #ffc847;
+  --wedge-3: #2fd6c3;
+  --wedge-4: #9b7bff;
+  --wedge-5: #ff8fc7;
+  --wedge-6: #56b7ff;
+  --wedge-7: #9be15d;
+  --wedge-8: #ff9f43;
+  --wedge-ink: #1d1033;
+  --wedge-line: #fff3d6;
+  --bankrupt-bg: #0d0d12;
+  --bankrupt-ink: #ffffff;
+  --lose-bg: #fbfbfb;
+  --lose-ink: #1d1033;
+  --jackpot-a: #fff1b3;
+  --jackpot-b: #e0a100;
+  --jackpot-ink: #4a1d00;
+  --wheel-rim: #ffc847;
+  --wheel-hub: #1c1948;
+  --peg: #fff8ec;
+  --pointer: #ff4d5e;
+  --pointer-edge: #ffffff;
+
+  /* misc */
+  --confetti-1: #ffc847;
+  --confetti-2: #ff6b5e;
+  --confetti-3: #2fd6c3;
+  --confetti-4: #9b7bff;
+  --confetti-5: #ffffff;
+
+  --radius-s: 10px;
+  --radius-m: 18px;
+  --radius-l: 28px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spin &amp; Solve — TV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;800;900&display=swap">
+  <link rel="stylesheet" href="/shared/theme.css">
+  <link rel="stylesheet" href="/tv/tv.css">
+</head>
+<body>
+  <div id="stage">
+    <!-- ============ LOBBY ============ -->
+    <section id="lobby" class="screen">
+      <div class="lobby-brand">
+        <div class="logo"><span class="logo-a">Spin</span><span class="logo-amp">&amp;</span><span class="logo-b">Solve</span></div>
+        <div class="tagline">Grab your phone. Spin the wheel. Crack the puzzle.</div>
+      </div>
+
+      <div class="lobby-join card">
+        <div class="label">Room code</div>
+        <div id="roomCode" class="room-code">····</div>
+        <div class="join-row">
+          <div id="qr" class="qr"></div>
+          <div class="join-text">
+            <div class="join-big">Scan with your phone camera</div>
+            <div class="label">or visit</div>
+            <div id="joinUrl" class="join-url"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lobby-players card">
+        <div class="players-head">
+          <div class="label">Players</div>
+          <div id="playerCount" class="player-count">0 / 6</div>
+        </div>
+        <div id="playerChips" class="chips"></div>
+        <button id="startBtn" class="btn btn-start" disabled>Start game</button>
+        <div id="startHint" class="hint">Waiting for at least 2 players…</div>
+
+        <details id="packBox" class="pack">
+          <summary>Custom puzzle pack <span id="customCount" class="pill"></span></summary>
+          <p class="pack-help">One per line: <code>Category | ANSWER</code> — e.g. <code>Phrase | BREAK A LEG</code></p>
+          <textarea id="packText" rows="6" spellcheck="false" placeholder="Phrase | BREAK A LEG&#10;Food &amp; Drink | PEANUT BUTTER"></textarea>
+          <div class="pack-row">
+            <button id="packBtn" class="btn btn-small">Load pack</button>
+            <div id="packResult" class="pack-result"></div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============ GAME ============ -->
+    <section id="game" class="screen">
+      <header class="topbar">
+        <div class="logo logo-small"><span class="logo-a">Spin</span><span class="logo-amp">&amp;</span><span class="logo-b">Solve</span></div>
+        <div id="roundInd" class="round-ind">Round 1 <span>of 4</span></div>
+        <div id="logLine" class="log-line"></div>
+        <div class="timer" id="timer">
+          <svg viewBox="0 0 100 100"><circle class="timer-track" cx="50" cy="50" r="44"/><circle id="timerArc" class="timer-arc" cx="50" cy="50" r="44"/></svg>
+          <div id="timerNum" class="timer-num"></div>
+        </div>
+      </header>
+
+      <div class="main">
+        <div id="leftCol" class="left-col mode-wheel">
+          <div id="wheelWrap" class="wheel-wrap">
+            <svg id="wheel" viewBox="-340 -340 680 680" aria-label="Wheel"></svg>
+            <div id="pointer" class="pointer"><svg viewBox="0 0 60 80"><path d="M30 78 L4 10 Q30 -6 56 10 Z"/></svg></div>
+            <div id="wedgePop" class="wedge-pop"></div>
+          </div>
+
+          <div id="solvePanel" class="panel solve-panel">
+            <div id="solveWho" class="panel-title">Solving…</div>
+            <div id="solveCount" class="big-count">30</div>
+            <div id="solveText" class="transcript"></div>
+            <div id="solveSource" class="transcript-src"></div>
+          </div>
+
+          <div id="bonusPanel" class="panel bonus-panel">
+            <div class="bonus-title">Bonus Round</div>
+            <div id="bonusWho" class="bonus-who"></div>
+            <div id="bonusPrize" class="bonus-prize"></div>
+            <div id="bonusStatus" class="bonus-status"></div>
+            <div id="bonusLetters" class="bonus-letters"></div>
+            <div id="bonusCount" class="big-count"></div>
+            <div id="bonusText" class="transcript"></div>
+          </div>
+        </div>
+
+        <div class="right-col">
+          <div id="boardWrap" class="board-wrap">
+            <div id="board" class="board"></div>
+            <div id="callout" class="callout"></div>
+          </div>
+          <div id="category" class="category"></div>
+          <div class="under-board">
+            <div id="usedStrip" class="used-strip"></div>
+            <div id="vowelsOnly" class="badge-vowels">Vowels only!</div>
+          </div>
+        </div>
+      </div>
+
+      <footer id="scores" class="scores"></footer>
+    </section>
+
+    <!-- ============ GAME OVER ============ -->
+    <section id="gameover" class="screen">
+      <div class="logo"><span class="logo-a">Spin</span><span class="logo-amp">&amp;</span><span class="logo-b">Solve</span></div>
+      <div class="go-title">Final standings</div>
+      <div id="bonusLine" class="go-bonus"></div>
+      <div id="podium" class="podium"></div>
+      <div id="restList" class="rest-list"></div>
+      <button id="againBtn" class="btn btn-start">Play again</button>
+    </section>
+
+    <!-- ============ OVERLAYS ============ -->
+    <div id="roundIntro" class="overlay intro">
+      <div class="intro-card">
+        <div id="introRound" class="intro-round">Round 1</div>
+        <div id="introCat" class="intro-cat"></div>
+      </div>
+    </div>
+
+    <div id="roundEnd" class="overlay modal">
+      <div class="modal-card">
+        <div id="reTitle" class="modal-title">Round complete</div>
+        <div id="reAnswer" class="modal-answer"></div>
+        <div id="reWinner" class="modal-winner"></div>
+        <div id="reStandings" class="standings"></div>
+        <div class="modal-foot">
+          <div id="reAuto" class="hint"></div>
+          <button id="nextBtn" class="btn btn-small">Next ▸</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="bonusEnd" class="overlay modal">
+      <div class="modal-card">
+        <div id="beTitle" class="modal-title"></div>
+        <div id="beAnswer" class="modal-answer"></div>
+        <div id="beLine" class="modal-winner"></div>
+        <div class="modal-foot">
+          <div id="beAuto" class="hint"></div>
+          <button id="nextBtn2" class="btn btn-small">Final scores ▸</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="bankruptFx" class="overlay fx-bankrupt"><div class="fx-word">BANKRUPT</div><div id="bankruptSub" class="fx-sub"></div></div>
+    <div id="banner" class="banner"><div id="bannerInner" class="banner-inner"></div></div>
+    <canvas id="confetti" width="1920" height="1080"></canvas>
+
+    <div id="soundGate" class="overlay gate">
+      <div class="gate-card">
+        <div class="gate-icon">♪</div>
+        <div class="gate-title">Click to enable sound</div>
+        <div class="hint">Browsers need one click before a game can make noise.</div>
+      </div>
+    </div>
+
+    <div id="conn" class="conn" title="Connection"></div>
+    <button id="muteBtn" class="mute" title="Mute (M)">♪</button>
+  </div>
+
+  <script type="module" src="/tv/tv.js"></script>
+</body>
+</html>

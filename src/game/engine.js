@@ -175,6 +175,7 @@ function endRoundWon(s, id, now, events, how) {
   s.solve = null;
   s.wedgeValue = null;
   setDeadline(s, now, T.roundEnd, "roundEnd");
+  s.lastSolve = { playerId: id, banked, round: s.round };
   s.log = `${p.name} ${how} and banks ${fmt(banked)}!`;
   events.push({ e: "solveRight", playerId: id, banked });
 }
@@ -653,6 +654,7 @@ export function snapshot(s, now, opts = {}) {
     bonus: s.bonus ? { playerId: s.bonus.playerId, given: s.bonus.given, picks: s.bonus.picks, prize: s.bonus.prize, ...(s.phase === "bonusEnd" || s.phase === "gameOver" ? { won: !!s.bonus.won } : {}) } : null,
     log: s.log,
     winners: s.phase === "gameOver" ? s.winners : null,
+    lastSolve: s.phase === "roundEnd" ? s.lastSolve ?? null : null,
   };
   if (over) snap.answer = s.puzzle.answer;
   if (opts.debugAnswer && s.puzzle) snap.debugAnswer = s.puzzle.answer;
