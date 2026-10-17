@@ -1,0 +1,372 @@
+<title>Spin &amp; Solve Directions</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&family=Fredoka:wght@500;600;700&family=Shrikhand&family=Fraunces:opsz,wght,SOFT@9..144,600..900,100&family=Lilita+One&family=Nunito:wght@700;800;900&family=Limelight&family=Josefin+Sans:wght@600;700&family=Poiret+One&display=swap">
+<style>
+/* Layout: a lookbook. Each option is a band: label + mood line, the 16:9 TV board full width, then two phone screens and a spec card. */
+:root{
+  --bg:#f3f1ec; --surface:#ffffff; --fg:#1d1b22; --muted:#625e6b; --line:#dcd8d0; --accent:#5b3fd6; --bezel:#1b1a1f;
+  --f-ui:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141318; --surface:#1e1c24; --fg:#ece9f2; --muted:#a19cad; --line:#34313d; --accent:#a996ff; --bezel:#050507; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141318; --surface:#1e1c24; --fg:#ece9f2; --muted:#a19cad; --line:#34313d; --accent:#a996ff; --bezel:#050507; color-scheme:dark}
+html,body{background:var(--bg);color:var(--fg)}
+body{font-family:var(--f-ui);font-size:15px;line-height:1.5;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px;overflow-x:hidden}
+.wrap{max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:72px}
+header.page h1{font-size:clamp(28px,4vw,44px);font-weight:800;letter-spacing:-.02em;margin:0;text-wrap:balance}
+header.page p{margin:8px 0 0;color:var(--muted);max-width:68ch}
+header.page nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+header.page nav a{color:var(--fg);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-weight:600;font-size:13px}
+header.page nav a:hover,header.page nav a:focus-visible{border-color:var(--accent);color:var(--accent);outline:none}
+section.opt{display:flex;flex-direction:column;gap:20px;scroll-margin-top:16px}
+.opt-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px}
+.opt-head .tag{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.opt-head h2{margin:0;font-size:clamp(22px,3vw,32px);font-weight:800;letter-spacing:-.01em}
+.opt-head p{flex-basis:100%;margin:0;color:var(--muted);max-width:80ch}
+.scaler{position:relative;width:100%;overflow:hidden;max-width:100%}
+.scaler>.inner{position:absolute;left:0;top:0;transform-origin:0 0}
+.tvframe{border-radius:14px;box-shadow:0 0 0 6px var(--bezel),0 18px 40px -18px rgba(0,0,0,.5);margin:6px}
+.row{display:grid;grid-template-columns:minmax(0,280px) minmax(0,280px) minmax(0,1fr);gap:28px;align-items:start}
+.phonewrap{display:flex;flex-direction:column;gap:8px;min-width:0}
+.phonewrap .cap{font-size:12px;font-weight:600;color:var(--muted);text-align:center}
+.phone{border-radius:34px;padding:9px;background:var(--bezel);box-shadow:0 14px 30px -16px rgba(0,0,0,.55)}
+.phone .scaler{border-radius:26px}
+.spec{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.spec h3{margin:0;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.swatches{display:flex;flex-wrap:wrap;gap:8px}
+.sw{display:flex;flex-direction:column;gap:4px;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.sw i{display:block;width:44px;height:44px;border-radius:8px;border:1px solid var(--line)}
+.fonts{display:flex;flex-direction:column;gap:6px}
+.fonts div{display:flex;justify-content:space-between;gap:12px;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:6px}
+.fonts span:first-child{font-size:22px;line-height:1.1}
+.fonts span:last-child{font-size:12px;color:var(--muted);text-align:right}
+.spec ul{margin:0;padding-left:18px;color:var(--fg)}
+.spec li{margin:2px 0}
+footer.page{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:900px){.row{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.spec{grid-column:1/-1}}
+@media (max-width:420px){.row{gap:14px}.phone{border-radius:24px;padding:6px}.phone .scaler{border-radius:19px}.tvframe{box-shadow:0 0 0 4px var(--bezel);margin:4px;border-radius:8px}}
+
+/* ===================== Shared mockup skeleton (fixed design palettes per option) ===================== */
+.tv{width:1600px;height:900px;position:relative;overflow:hidden;box-sizing:border-box;padding:28px 36px;display:grid;grid-template-rows:64px 1fr 150px;gap:20px;grid-template-columns:minmax(0,1fr);font-family:var(--t-body);color:var(--t-ink);background:var(--t-bg)}
+.tv *{box-sizing:border-box}
+.tv .top{display:flex;align-items:center;justify-content:space-between;position:relative;z-index:2}
+.tv .logo{font-family:var(--t-display);font-size:44px;line-height:1;color:var(--t-logo)}
+.tv .roundpill{font-size:22px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:10px 22px;border-radius:var(--t-r);background:var(--t-pill);color:var(--t-pill-ink)}
+.tv .timer{display:flex;align-items:center;gap:14px;font-size:22px;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
+.tv .timer b{font-family:var(--t-num);font-size:40px;letter-spacing:0;font-variant-numeric:tabular-nums;color:var(--t-accent)}
+.tv .mid{display:grid;grid-template-columns:1000px minmax(0,1fr);gap:28px;position:relative;z-index:2;min-height:0}
+.tv .left{display:flex;flex-direction:column;gap:14px}
+.tv .board{display:flex;flex-direction:column;align-items:center;gap:7px;padding:18px 0;border-radius:var(--t-board-r);background:var(--t-board);border:var(--t-board-border);box-shadow:var(--t-board-shadow)}
+.tv .brow{display:flex;gap:7px}
+.tv .tile{width:62px;height:82px;border-radius:var(--t-tile-r);display:flex;align-items:center;justify-content:center;font-family:var(--t-tile-font);font-size:54px;line-height:1;color:var(--t-tile-ink)}
+.tv .tile.off{background:var(--t-off);border:var(--t-off-border)}
+.tv .tile.blank{background:var(--t-blank);border:var(--t-blank-border);box-shadow:var(--t-blank-shadow)}
+.tv .tile.shown{background:var(--t-shown);border:var(--t-blank-border);box-shadow:var(--t-blank-shadow)}
+.tv .tile.lit{background:var(--t-lit);border:var(--t-blank-border);box-shadow:var(--t-lit-shadow);color:var(--t-lit-ink)}
+.tv .cat{align-self:center;font-family:var(--t-display);font-size:34px;line-height:1;padding:12px 48px;border-radius:var(--t-r);background:var(--t-cat);color:var(--t-cat-ink);border:var(--t-cat-border);letter-spacing:var(--t-cat-ls);text-transform:var(--t-cat-tt)}
+.tv .trans{flex:1;display:flex;align-items:center;gap:22px;padding:14px 24px;border-radius:var(--t-r);background:var(--t-panel);border:var(--t-panel-border)}
+.tv .mic{width:58px;height:58px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;background:var(--t-accent2)}
+.tv .mic svg{width:28px;height:28px}
+.tv .trans .who{font-size:17px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--t-muted)}
+.tv .trans .said{font-size:34px;font-weight:700;line-height:1.15;color:var(--t-ink)}
+.tv .trans .said em{font-style:normal;color:var(--t-muted)}
+.tv .wave{display:flex;align-items:center;gap:5px;height:50px;margin-left:auto}
+.tv .wave i{width:7px;border-radius:4px;background:var(--t-accent2)}
+.tv .right{position:relative;display:flex;align-items:center;justify-content:center}
+.tv .wheel{width:500px;height:500px;margin-top:30px;filter:var(--t-wheel-shadow)}
+.tv .pointer{position:absolute;left:50%;top:0;transform:translateX(-50%);width:56px;height:66px;z-index:3}
+.tv .scores{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;position:relative;z-index:2}
+.tv .p{position:relative;display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto auto;column-gap:18px;align-items:center;padding:18px 26px;border-radius:var(--t-r);background:var(--t-panel);border:var(--t-panel-border);font-variant-numeric:tabular-nums}
+.tv .p .dot{grid-row:1/3;width:54px;height:54px;border-radius:var(--t-dot-r);background:var(--pc);border:var(--t-dot-border)}
+.tv .p .nm{font-family:var(--t-display);font-size:36px;line-height:1;color:var(--t-ink)}
+.tv .p .rm{grid-row:1/3;grid-column:3;font-family:var(--t-num);font-size:54px;line-height:1;color:var(--t-money)}
+.tv .p .tot{font-size:19px;font-weight:700;letter-spacing:.06em;color:var(--t-muted);text-transform:uppercase}
+.tv .p.cur{background:var(--t-cur);border:var(--t-cur-border);box-shadow:var(--t-cur-shadow)}
+.tv .p.cur .nm,.tv .p.cur .rm{color:var(--t-cur-ink)}
+.tv .p.cur .tot{color:var(--t-cur-muted)}
+.tv .p .flag{position:absolute;top:-16px;left:26px;font-size:15px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;padding:4px 12px;border-radius:var(--t-r);background:var(--t-flag);color:var(--t-flag-ink)}
+
+.ph{width:390px;height:844px;position:relative;overflow:hidden;box-sizing:border-box;padding:58px 24px 30px;display:flex;flex-direction:column;gap:18px;font-family:var(--t-body);color:var(--t-ink);background:var(--t-phbg)}
+.ph *{box-sizing:border-box}
+.ph .status{position:absolute;top:16px;left:30px;right:30px;display:flex;justify-content:space-between;font:600 15px var(--f-ui);color:var(--t-ink);opacity:.85}
+.ph .me{display:flex;align-items:center;gap:10px;font-size:18px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.ph .me i{width:22px;height:22px;border-radius:var(--t-dot-r);background:var(--pc);border:var(--t-dot-border)}
+.ph .me span:last-child{margin-left:auto;font-family:var(--t-num);letter-spacing:0;font-size:22px;color:var(--t-money);font-variant-numeric:tabular-nums}
+.ph h4{margin:0;font-family:var(--t-display);font-size:58px;line-height:1;font-weight:400;color:var(--t-logo)}
+.ph .sub{font-size:18px;font-weight:700;color:var(--t-muted);margin-top:-6px}
+.ph .btns{display:flex;flex-direction:column;gap:16px;flex:1;justify-content:center}
+.ph .btn{display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:var(--t-btn-r);font-family:var(--t-display);text-align:center;line-height:1}
+.ph .btn small{font-family:var(--t-body);font-size:17px;font-weight:800;letter-spacing:.08em;margin-top:8px;opacity:.85}
+.ph .b1{height:200px;font-size:72px;background:var(--t-b1);color:var(--t-b1-ink);border:var(--t-btn-border);box-shadow:var(--t-b1-shadow)}
+.ph .b2{height:120px;font-size:36px;background:var(--t-b2);color:var(--t-b2-ink);border:var(--t-btn-border);box-shadow:var(--t-b2-shadow)}
+.ph .b3{height:120px;font-size:44px;background:var(--t-b3);color:var(--t-b3-ink);border:var(--t-btn-border);box-shadow:var(--t-b3-shadow)}
+.ph .tbar{height:12px;border-radius:6px;background:var(--t-track);overflow:hidden}
+.ph .tbar i{display:block;height:100%;width:62%;background:var(--t-accent);border-radius:6px}
+.ph .tlabel{display:flex;justify-content:space-between;font-size:15px;font-weight:700;color:var(--t-muted);margin-top:-10px}
+.ph .landed{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-radius:var(--t-r);background:var(--t-panel);border:var(--t-panel-border)}
+.ph .landed span{font-size:16px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--t-muted)}
+.ph .landed b{font-family:var(--t-num);font-size:46px;line-height:1;color:var(--t-money);font-weight:400}
+.ph .keys{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;flex:1;align-content:start}
+.ph .k{height:62px;display:flex;align-items:center;justify-content:center;border-radius:var(--t-key-r);font-family:var(--t-tile-font);font-size:36px;background:var(--t-key);color:var(--t-key-ink);border:var(--t-key-border);box-shadow:var(--t-key-shadow)}
+.ph .k.used{background:transparent;color:var(--t-used);box-shadow:none;border:var(--t-used-border);text-decoration:line-through;text-decoration-thickness:3px}
+.ph .k.sel{background:var(--t-b1);color:var(--t-b1-ink);box-shadow:var(--t-b1-shadow)}
+.ph .call{height:76px;border-radius:var(--t-btn-r);display:flex;align-items:center;justify-content:center;font-family:var(--t-display);font-size:34px;background:var(--t-b1);color:var(--t-b1-ink);border:var(--t-btn-border);box-shadow:var(--t-b1-shadow)}
+
+/* ===================== Option A: Midnight Arcade ===================== */
+.th-a{--t-display:"Fredoka",system-ui,sans-serif;--t-body:"Fredoka",system-ui,sans-serif;--t-num:"Fredoka",system-ui,sans-serif;--t-tile-font:"Fredoka",system-ui,sans-serif;
+  --t-bg:radial-gradient(120% 90% at 70% 10%,#2b1a7a 0%,#140c45 45%,#07041d 100%);--t-ink:#f3efff;--t-muted:#a99be6;--t-logo:#ffc93c;--t-accent:#ffc93c;--t-accent2:#ff5e7a;--t-money:#ffc93c;
+  --t-r:18px;--t-pill:rgba(255,201,60,.14);--t-pill-ink:#ffc93c;
+  --t-board:#0d0833;--t-board-r:28px;--t-board-border:3px solid #ffc93c;--t-board-shadow:0 0 0 6px rgba(255,201,60,.15),0 0 40px rgba(255,201,60,.35),inset 0 0 30px rgba(120,80,255,.35);
+  --t-tile-r:12px;--t-off:#1c1458;--t-off-border:2px solid #2a1f75;--t-blank:#2a1f8a;--t-blank-border:3px solid #ffc93c;--t-blank-shadow:0 0 12px rgba(255,201,60,.45);
+  --t-shown:#fff6dc;--t-tile-ink:#1a0f55;--t-lit:#ff5e7a;--t-lit-ink:#fff;--t-lit-shadow:0 0 26px #ff5e7a;
+  --t-cat:#ff5e7a;--t-cat-ink:#fff;--t-cat-border:0;--t-cat-ls:.06em;--t-cat-tt:uppercase;
+  --t-panel:rgba(255,255,255,.06);--t-panel-border:2px solid rgba(169,155,230,.35);
+  --t-cur:#ffc93c;--t-cur-border:0;--t-cur-shadow:0 0 34px rgba(255,201,60,.6);--t-cur-ink:#1a0f55;--t-cur-muted:#5a3f00;--t-flag:#ff5e7a;--t-flag-ink:#fff;
+  --t-dot-r:50%;--t-dot-border:4px solid rgba(255,255,255,.85);--t-wheel-shadow:drop-shadow(0 0 30px rgba(255,94,122,.45));
+  --t-phbg:linear-gradient(180deg,#1d1160,#08051f);--t-btn-r:28px;--t-btn-border:0;
+  --t-b1:#ffc93c;--t-b1-ink:#1a0f55;--t-b1-shadow:0 8px 0 #b8860b,0 0 40px rgba(255,201,60,.45);
+  --t-b2:#ff5e7a;--t-b2-ink:#fff;--t-b2-shadow:0 8px 0 #a8304a;--t-b3:#38d9f5;--t-b3-ink:#0b0838;--t-b3-shadow:0 8px 0 #1a8aa3;
+  --t-track:rgba(255,255,255,.12);--t-key:#2a1f8a;--t-key-ink:#fff6dc;--t-key-r:16px;--t-key-border:2px solid #4b3bc4;--t-key-shadow:0 5px 0 #120a4a;--t-used:#5b50a0;--t-used-border:2px dashed #3a2f86}
+.th-a .tv::after,.tv.th-a::after{content:"";position:absolute;left:-10%;right:-10%;bottom:-40px;height:330px;z-index:1;background:
+  repeating-linear-gradient(90deg,rgba(255,94,122,.35) 0 2px,transparent 2px 80px),repeating-linear-gradient(0deg,rgba(255,94,122,.35) 0 2px,transparent 2px 46px);
+  transform:perspective(420px) rotateX(58deg);transform-origin:bottom;mask-image:linear-gradient(to top,#000 10%,transparent 90%);-webkit-mask-image:linear-gradient(to top,#000 10%,transparent 90%)}
+.th-a .tile{font-weight:700}
+.th-a .logo{text-shadow:0 0 18px rgba(255,201,60,.7);font-weight:700}
+.th-a .cat,.th-a .p .nm,.th-a .btn,.th-a h4,.th-a .call{font-weight:700}
+.th-a .p .rm,.th-a .landed b{font-weight:700}
+
+/* ===================== Option B: Retro Studio '70s ===================== */
+.th-b{--t-display:"Shrikhand",Georgia,serif;--t-body:"Fraunces",Georgia,serif;--t-num:"Fraunces",Georgia,serif;--t-tile-font:"Fraunces",Georgia,serif;
+  --t-bg:repeating-conic-gradient(from -3deg at 50% 118%,#e8762b 0deg 6deg,#f08a32 6deg 12deg);--t-ink:#3b1d0e;--t-muted:#7a4a2a;--t-logo:#fff1d6;--t-accent:#7a3b1e;--t-accent2:#c4441e;--t-money:#3b1d0e;
+  --t-r:999px;--t-pill:#3b1d0e;--t-pill-ink:#fbe7c3;
+  --t-board:#4a2414;--t-board-r:44px;--t-board-border:6px solid #fbe7c3;--t-board-shadow:0 0 0 10px #c4441e,0 0 0 16px #f2b33d,0 18px 0 16px rgba(59,29,14,.35);
+  --t-tile-r:8px;--t-off:#6b3a20;--t-off-border:0;--t-blank:#fbe7c3;--t-blank-border:0;--t-blank-shadow:inset 0 -6px 0 rgba(122,59,30,.25);
+  --t-shown:#fbe7c3;--t-tile-ink:#4a2414;--t-lit:#f2b33d;--t-lit-ink:#4a2414;--t-lit-shadow:inset 0 -6px 0 rgba(122,59,30,.35),0 0 0 4px #fff1d6;
+  --t-cat:#3b1d0e;--t-cat-ink:#f2b33d;--t-cat-border:4px solid #fbe7c3;--t-cat-ls:.01em;--t-cat-tt:none;
+  --t-panel:#fbe7c3;--t-panel-border:4px solid #3b1d0e;
+  --t-cur:#3b1d0e;--t-cur-border:4px solid #fbe7c3;--t-cur-shadow:0 0 0 6px #c4441e;--t-cur-ink:#f2b33d;--t-cur-muted:#e5c99a;--t-flag:#c4441e;--t-flag-ink:#fff1d6;
+  --t-dot-r:50%;--t-dot-border:4px solid #3b1d0e;--t-wheel-shadow:drop-shadow(0 14px 0 rgba(59,29,14,.35));
+  --t-phbg:repeating-conic-gradient(from -4deg at 50% 112%,#e8762b 0deg 8deg,#f08a32 8deg 16deg);--t-btn-r:999px;--t-btn-border:4px solid #3b1d0e;
+  --t-b1:#3b1d0e;--t-b1-ink:#f2b33d;--t-b1-shadow:0 8px 0 #c4441e;
+  --t-b2:#fbe7c3;--t-b2-ink:#3b1d0e;--t-b2-shadow:0 8px 0 #7a3b1e;--t-b3:#f2b33d;--t-b3-ink:#3b1d0e;--t-b3-shadow:0 8px 0 #7a3b1e;
+  --t-track:rgba(59,29,14,.25);--t-key:#fbe7c3;--t-key-ink:#3b1d0e;--t-key-r:18px;--t-key-border:3px solid #3b1d0e;--t-key-shadow:0 5px 0 #7a3b1e;--t-used:#a4572c;--t-used-border:3px dashed #a4572c}
+.th-b .tile,.th-b .k{font-weight:900;font-variation-settings:"SOFT" 100,"opsz" 144}
+.th-b .p .rm,.th-b .landed b,.th-b .timer b,.th-b .me span:last-child{font-weight:900;font-variation-settings:"SOFT" 100,"opsz" 144}
+.th-b .trans .said,.th-b .trans .who,.th-b .roundpill,.th-b .timer,.th-b .p .tot{font-weight:800;font-variation-settings:"SOFT" 100}
+.th-b .logo{text-shadow:4px 4px 0 #7a3b1e,8px 8px 0 #3b1d0e}
+.th-b h4{color:#fff1d6;text-shadow:3px 3px 0 #7a3b1e,6px 6px 0 #3b1d0e}
+.th-b .p .nm{font-size:34px}
+.th-b .timer{color:#3b1d0e}
+.th-b .timer b{color:#fff1d6;text-shadow:3px 3px 0 #3b1d0e}
+.th-b .ph .me,.th-b .ph .sub,.th-b .ph .tlabel{color:#3b1d0e}
+.th-b .ph .me span:last-child{color:#fff1d6;text-shadow:2px 2px 0 #3b1d0e}
+
+/* ===================== Option C: Candy Pop ===================== */
+.th-c{--t-display:"Lilita One","Arial Rounded MT Bold",sans-serif;--t-body:"Nunito",system-ui,sans-serif;--t-num:"Lilita One",sans-serif;--t-tile-font:"Lilita One",sans-serif;
+  --t-bg:radial-gradient(circle at 12px 12px,rgba(255,255,255,.55) 4px,transparent 5px) 0 0/44px 44px,linear-gradient(135deg,#ffd6ec 0%,#e2dcff 50%,#c9f3ea 100%);
+  --t-ink:#2d1b4e;--t-muted:#6c5a8e;--t-logo:#2d1b4e;--t-accent:#ff4fa3;--t-accent2:#ff4fa3;--t-money:#2d1b4e;
+  --t-r:22px;--t-pill:#fff;--t-pill-ink:#2d1b4e;
+  --t-board:#b9a8ff;--t-board-r:34px;--t-board-border:5px solid #2d1b4e;--t-board-shadow:10px 10px 0 #2d1b4e;
+  --t-tile-r:14px;--t-off:#a291f2;--t-off-border:3px solid #8f7de6;--t-blank:#fff;--t-blank-border:4px solid #2d1b4e;--t-blank-shadow:0 5px 0 #2d1b4e;
+  --t-shown:#fff;--t-tile-ink:#ff4fa3;--t-lit:#ffe066;--t-lit-ink:#2d1b4e;--t-lit-shadow:0 5px 0 #2d1b4e;
+  --t-cat:#fff;--t-cat-ink:#2d1b4e;--t-cat-border:4px solid #2d1b4e;--t-cat-ls:.02em;--t-cat-tt:none;
+  --t-panel:#fff;--t-panel-border:4px solid #2d1b4e;
+  --t-cur:#ffe066;--t-cur-border:4px solid #2d1b4e;--t-cur-shadow:8px 8px 0 #2d1b4e;--t-cur-ink:#2d1b4e;--t-cur-muted:#6c5a8e;--t-flag:#ff4fa3;--t-flag-ink:#fff;
+  --t-dot-r:16px;--t-dot-border:4px solid #2d1b4e;--t-wheel-shadow:drop-shadow(10px 10px 0 #2d1b4e);
+  --t-phbg:radial-gradient(circle at 10px 10px,rgba(255,255,255,.6) 4px,transparent 5px) 0 0/36px 36px,linear-gradient(160deg,#ffd6ec,#e2dcff);
+  --t-btn-r:30px;--t-btn-border:5px solid #2d1b4e;
+  --t-b1:#ff4fa3;--t-b1-ink:#fff;--t-b1-shadow:0 9px 0 #2d1b4e;
+  --t-b2:#8fe3cf;--t-b2-ink:#2d1b4e;--t-b2-shadow:0 9px 0 #2d1b4e;--t-b3:#ffe066;--t-b3-ink:#2d1b4e;--t-b3-shadow:0 9px 0 #2d1b4e;
+  --t-track:#fff;--t-key:#fff;--t-key-ink:#2d1b4e;--t-key-r:18px;--t-key-border:4px solid #2d1b4e;--t-key-shadow:0 6px 0 #2d1b4e;--t-used:#b3a6cf;--t-used-border:4px dashed #c8bde0}
+.th-c .trans .said,.th-c .trans .who,.th-c .p .tot,.th-c .roundpill,.th-c .timer,.th-c .ph .sub,.th-c .ph .me{font-weight:900}
+.th-c .roundpill{border:4px solid #2d1b4e}
+.th-c .logo{color:#fff;-webkit-text-stroke:3px #2d1b4e;paint-order:stroke fill;text-shadow:5px 5px 0 #2d1b4e;font-size:50px}
+.th-c h4{color:#fff;-webkit-text-stroke:3px #2d1b4e;paint-order:stroke fill;text-shadow:4px 4px 0 #2d1b4e}
+.th-c .mic{border:4px solid #2d1b4e}
+.th-c .tbar{border:3px solid #2d1b4e;height:18px}
+.th-c .btn,.th-c .call{-webkit-text-stroke:0}
+
+/* ===================== Option D: Gameshow Noir / Art Deco ===================== */
+.th-d{--t-display:"Limelight",Georgia,serif;--t-body:"Josefin Sans",system-ui,sans-serif;--t-num:"Josefin Sans",system-ui,sans-serif;--t-tile-font:"Josefin Sans",system-ui,sans-serif;
+  --t-bg:radial-gradient(circle at 50% 100%,transparent 0 38px,rgba(201,162,90,.12) 39px 40px,transparent 41px) 0 0/80px 40px,linear-gradient(180deg,#0b0b0c,#050505);
+  --t-ink:#efe6cf;--t-muted:#a8936a;--t-logo:#d8b46a;--t-accent:#d8b46a;--t-accent2:#1f8f6e;--t-money:#d8b46a;
+  --t-r:2px;--t-pill:transparent;--t-pill-ink:#d8b46a;
+  --t-board:#0a0a0a;--t-board-r:0;--t-board-border:2px solid #d8b46a;--t-board-shadow:0 0 0 8px #0a0a0a,0 0 0 10px #8c6d35,0 30px 60px rgba(0,0,0,.6);
+  --t-tile-r:0;--t-off:#121614;--t-off-border:1px solid #2a2a22;--t-blank:#0f5c4a;--t-blank-border:2px solid #d8b46a;--t-blank-shadow:inset 0 0 0 3px #0a3d31;
+  --t-shown:#efe6cf;--t-tile-ink:#0a0a0a;--t-lit:#d8b46a;--t-lit-ink:#0a0a0a;--t-lit-shadow:0 0 24px rgba(216,180,106,.55);
+  --t-cat:#0f5c4a;--t-cat-ink:#efe6cf;--t-cat-border:2px solid #d8b46a;--t-cat-ls:.22em;--t-cat-tt:uppercase;
+  --t-panel:#0e0f0e;--t-panel-border:1px solid #6d5630;
+  --t-cur:#0f5c4a;--t-cur-border:2px solid #d8b46a;--t-cur-shadow:0 0 0 6px #050505,0 0 0 7px #d8b46a;--t-cur-ink:#efe6cf;--t-cur-muted:#d8b46a;--t-flag:#d8b46a;--t-flag-ink:#0a0a0a;
+  --t-dot-r:0;--t-dot-border:2px solid #d8b46a;--t-wheel-shadow:drop-shadow(0 20px 40px rgba(0,0,0,.8));
+  --t-phbg:radial-gradient(circle at 50% 100%,transparent 0 28px,rgba(201,162,90,.14) 29px 30px,transparent 31px) 0 0/60px 30px,#070707;
+  --t-btn-r:0;--t-btn-border:2px solid #d8b46a;
+  --t-b1:#d8b46a;--t-b1-ink:#0a0a0a;--t-b1-shadow:0 0 0 5px #070707,0 0 0 6px #8c6d35;
+  --t-b2:#0f5c4a;--t-b2-ink:#efe6cf;--t-b2-shadow:none;--t-b3:#0a0a0a;--t-b3-ink:#d8b46a;--t-b3-shadow:none;
+  --t-track:#1d1d1a;--t-key:#101211;--t-key-ink:#efe6cf;--t-key-r:0;--t-key-border:1px solid #8c6d35;--t-key-shadow:none;--t-used:#4a4232;--t-used-border:1px solid #2a2620}
+.th-d .tile,.th-d .k{font-weight:700;padding-top:8px}
+.th-d .cat{font-size:28px;padding:14px 56px;clip-path:polygon(18px 0,calc(100% - 18px) 0,100% 50%,calc(100% - 18px) 100%,18px 100%,0 50%)}
+.th-d .logo{letter-spacing:.06em}
+.th-d .roundpill{border:1px solid #d8b46a;font-weight:600;letter-spacing:.3em}
+.th-d .timer,.th-d .trans .who,.th-d .p .tot,.th-d .ph .me,.th-d .ph .sub{font-weight:600;letter-spacing:.24em}
+.th-d .trans .said{font-family:"Poiret One",Georgia,serif;font-weight:400;font-size:40px}
+.th-d .p .rm,.th-d .landed b,.th-d .timer b,.th-d .me span:last-child{font-weight:700;padding-top:6px}
+.th-d .p .nm{font-size:30px;letter-spacing:.08em}
+.th-d .p.cur .flag{letter-spacing:.3em}
+.th-d .btn,.th-d .call{letter-spacing:.06em}
+.th-d .ph .b1{font-size:62px}
+.th-d h4{font-size:50px;letter-spacing:.04em}
+.th-d .p .dot{transform:rotate(45deg) scale(.72)}
+.th-d .me i{transform:rotate(45deg) scale(.8)}
+</style>
+
+<div class="wrap">
+  <header class="page">
+    <h1>Spin &amp; Solve: four visual directions</h1>
+    <p>Each option shows the laptop TV board mid-round (category Phrase, Maya solving by voice), the phone's "your turn" controller and the consonant picker. The palettes inside each mockup are fixed design samples. TV mockups are drawn at 1600 &times; 900 and scaled to the page; phones at 390 &times; 844.</p>
+    <nav aria-label="Options"><a href="#opt-a">A &middot; Midnight Arcade</a><a href="#opt-b">B &middot; Retro Studio '70s</a><a href="#opt-c">C &middot; Candy Pop</a><a href="#opt-d">D &middot; Gameshow Noir</a></nav>
+  </header>
+  <div id="options" style="display:flex;flex-direction:column;gap:80px"></div>
+  <footer class="page">Sample puzzle: BETTER LATE THAN NEVER, with T, R, N and a bought E revealed. Wheel: 24 wedges, $300 to $900, one $2,500, two BANKRUPT, one LOSE A TURN; the pointer rests on $650.</footer>
+</div>
+
+<script>
+(function(){
+const WEDGES=[2500,600,400,300,'BANKRUPT',900,500,650,300,800,'LOSE A TURN',700,450,350,600,500,'BANKRUPT',300,850,400,550,900,750,500];
+const ROWS=[["",12],["BETTER LATE",14],["THAN NEVER",14],["",12]];
+const SHOWN=new Set(["T","R","N","E"]), LIT="N";
+const CONS="BCDFGHJKLMNPQRSTVWXYZ".split("");
+
+const THEMES=[
+ {id:"a",cls:"th-a",tag:"Option A",name:"Midnight Arcade",
+  mood:"A late-night arcade cabinet: deep indigo with a neon perspective floor, gold-rimmed tiles that light coral when a letter lands, and chunky rounded Fredoka for every word. Loud and celebratory, built for maximum contrast across a dark living room.",
+  sw:[["#140c45","Indigo"],["#ffc93c","Neon gold"],["#ff5e7a","Coral"],["#38d9f5","Cyan"],["#fff6dc","Tile cream"]],
+  fonts:[["Fredoka","Fredoka 700","Logo, tiles, buttons"],["Fredoka","Fredoka 500","Body, labels"]],
+  notes:["Glow is the reward: lit tiles and the current player bloom.","Phone buttons are arcade keys with a hard 8px drop shadow."],
+  players:["#ff5e7a","#38d9f5","#9b5cff"],
+  wheel:{cols:["#ff5e7a","#ffc93c","#38d9f5","#9b5cff","#ff8a3d","#3ee6a6"],ink:"#140c45",font:"Fredoka",weight:700,jack:["#fff6dc","#ff5e7a"],bk:["#07041d","#ffc93c"],lose:["#f3efff","#140c45"],rim:"#ffc93c",rimW:10,peg:"#fff6dc",hub:["#140c45","#ffc93c"],hubText:"#ffc93c",sep:"#140c45",ptr:"#ff5e7a",ptrStroke:"#fff"}},
+ {id:"b",cls:"th-b",tag:"Option B",name:"Retro Studio '70s",
+  mood:"A Saturday-night studio set from 1974: an orange sunburst floor, a walnut-brown board with cream tiles, stacked drop-shadow lettering in Shrikhand and soft, fat Fraunces numerals. Warm, nostalgic and a little funky.",
+  sw:[["#e8762b","Sunburst"],["#3b1d0e","Walnut"],["#fbe7c3","Cream"],["#f2b33d","Mustard"],["#c4441e","Paprika"]],
+  fonts:[["Shrikhand","Shrikhand","Logo, headlines, buttons"],["Fraunces","Fraunces Soft 900","Tiles, money, body"]],
+  notes:["Everything is pill-shaped or rounded like a 70s TV tube.","Layered offset shadows stand in for neon: print, not light."],
+  players:["#c4441e","#7d8f3a","#2f6f8f"],
+  wheel:{cols:["#c4441e","#f2b33d","#7a3b1e","#e8762b","#7d8f3a","#d99a52"],ink:"#fff1d6",inkAlt:{"#f2b33d":"#3b1d0e","#d99a52":"#3b1d0e","#e8762b":"#3b1d0e"},font:"Fraunces",weight:900,jack:["#fbe7c3","#c4441e"],bk:["#3b1d0e","#f2b33d"],lose:["#fbe7c3","#3b1d0e"],rim:"#3b1d0e",rimW:14,peg:"#fbe7c3",hub:["#fbe7c3","#3b1d0e"],hubText:"#c4441e",sep:"#3b1d0e",ptr:"#3b1d0e",ptrStroke:"#fbe7c3"}},
+ {id:"c",cls:"th-c",tag:"Option C",name:"Candy Pop",
+  mood:"Sticker-sheet fun: pastel gradients with polka dots, white tiles with thick plum outlines and hard offset shadows, bubblegum-pink letters in Lilita One and friendly Nunito. Bright, kid-friendly and readable in a sunny room.",
+  sw:[["#ffd6ec","Bubblegum"],["#b9a8ff","Lilac"],["#8fe3cf","Mint"],["#ffe066","Lemon"],["#2d1b4e","Plum ink"]],
+  fonts:[["Lilita One","Lilita One","Logo, tiles, buttons"],["Nunito","Nunito 900","Body, labels"]],
+  notes:["One plum outline weight everywhere, so it all reads as stickers.","Hard 10px offset shadows give depth without blur."],
+  players:["#ff4fa3","#3ccfa8","#6c8cff"],
+  wheel:{cols:["#ff9ecf","#ffe066","#8fe3cf","#a9b8ff","#ffb38a","#c9f27a"],ink:"#2d1b4e",font:"Lilita One",weight:400,jack:["#ff4fa3","#fff"],bk:["#2d1b4e","#fff"],lose:["#fff","#2d1b4e"],rim:"#2d1b4e",rimW:10,peg:"#fff",hub:["#fff","#2d1b4e"],hubText:"#ff4fa3",sep:"#2d1b4e",ptr:"#ffe066",ptrStroke:"#2d1b4e",sepW:3}},
+ {id:"d",cls:"th-d",tag:"Option D",name:"Gameshow Noir",
+  mood:"An Art Deco ballroom after midnight: black lacquer with a faint brass fan pattern, emerald tiles framed in brass, a chevron-cut category plaque, and Limelight headlines over geometric Josefin Sans. Elegant and dramatic, the grown-up option.",
+  sw:[["#0a0a0a","Lacquer"],["#d8b46a","Brass"],["#0f5c4a","Emerald"],["#7a1f2b","Garnet"],["#efe6cf","Ivory"]],
+  fonts:[["Limelight","Limelight","Logo, headlines, buttons"],["Josefin Sans","Josefin Sans 700","Tiles, money, labels"],["Poiret One","Poiret One","Live transcript"]],
+  notes:["Square corners, hairline brass rules, diamond player markers.","Gold appears only where attention belongs: money, current player, SPIN."],
+  players:["#1f9e7a","#b23a48","#3d6fb5"],
+  wheel:{cols:["#0f5c4a","#7a1f2b","#164a5c","#1b1b1b","#c49a4a","#2a3a2f"],ink:"#efe6cf",inkAlt:{"#c49a4a":"#0a0a0a"},font:"Josefin Sans",weight:700,jack:["#d8b46a","#0a0a0a"],bk:["#000","#d8b46a"],lose:["#efe6cf","#0a0a0a"],rim:"#d8b46a",rimW:8,peg:"#d8b46a",hub:["#0a0a0a","#d8b46a"],hubText:"#d8b46a",sep:"#d8b46a",ptr:"#d8b46a",ptrStroke:"#0a0a0a",sepW:1.5}}
+];
+
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;")}
+
+function wheelSVG(w){
+  const R=262,P=Math.PI/180;let paths="",texts="",pegs="";let k=0;
+  WEDGES.forEach((v,i)=>{
+    const a0=(i*15-7.5)*P,a1=(i*15+7.5)*P;
+    const x0=R*Math.sin(a0),y0=-R*Math.cos(a0),x1=R*Math.sin(a1),y1=-R*Math.cos(a1);
+    let fill,ink,label,size;
+    if(v===2500){[fill,ink]=w.jack;label="$2,500";size=27}
+    else if(v==="BANKRUPT"){[fill,ink]=w.bk;label="BANKRUPT";size=21}
+    else if(v==="LOSE A TURN"){[fill,ink]=w.lose;label="LOSE A TURN";size=16}
+    else{fill=w.cols[k++%w.cols.length];ink=(w.inkAlt&&w.inkAlt[fill])||w.ink;label="$"+v;size=32}
+    paths+=`<path d="M0 0L${x0.toFixed(2)} ${y0.toFixed(2)}A${R} ${R} 0 0 1 ${x1.toFixed(2)} ${y1.toFixed(2)}Z" fill="${fill}" stroke="${w.sep}" stroke-width="${w.sepW||2}"/>`;
+    const sa=((i*15-103)%360+360)%360, flip=sa>0&&sa<180;
+    texts+=`<text transform="rotate(${i*15}) translate(0 ${-R+18}) rotate(${flip?-90:90})" font-family="${w.font}" font-weight="${w.weight}" font-size="${size}" fill="${ink}" dominant-baseline="central" text-anchor="${flip?"end":"start"}">${label}</text>`;
+    pegs+=`<circle cx="${(R-6)*Math.sin(a0)}" cy="${-(R-6)*Math.cos(a0)}" r="4.5" fill="${w.peg}"/>`;
+  });
+  return `<svg class="wheel" viewBox="-280 -280 560 560" aria-hidden="true">
+    <circle r="276" fill="${w.rim}"/>
+    <g transform="rotate(-103)">${paths}${texts}${pegs}</g>
+    <circle r="${R}" fill="none" stroke="${w.rim}" stroke-width="${w.rimW-4}" opacity=".9"/>
+    <circle r="54" fill="${w.hub[0]}" stroke="${w.hub[1]}" stroke-width="6"/>
+    <text y="2" text-anchor="middle" dominant-baseline="central" font-family="${w.font}" font-weight="${w.weight}" font-size="30" fill="${w.hubText}">S&amp;S</text>
+  </svg>
+  <svg class="pointer" viewBox="0 0 56 66" aria-hidden="true"><path d="M6 4H50L28 62Z" fill="${w.ptr}" stroke="${w.ptrStroke}" stroke-width="4" stroke-linejoin="round"/></svg>`;
+}
+
+function board(){
+  return ROWS.map(([txt,n])=>{
+    const start=Math.floor((n-txt.length)/2);let cells="";
+    for(let c=0;c<n;c++){
+      const ch=txt[c-start];
+      if(!txt||c<start||c>=start+txt.length||ch===" ") cells+=`<div class="tile off"></div>`;
+      else if(SHOWN.has(ch)) cells+=`<div class="tile ${ch===LIT?"lit":"shown"}">${ch}</div>`;
+      else cells+=`<div class="tile blank"></div>`;
+    }
+    return `<div class="brow">${cells}</div>`;
+  }).join("");
+}
+
+const MIC=`<svg viewBox="0 0 24 24" fill="#fff"><path d="M12 15a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v7a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21h2v-2.1A7 7 0 0 0 19 12z"/></svg>`;
+const WAVE=[18,34,48,26,40,14,30,46,22,36,16,28].map(h=>`<i style="height:${h}px"></i>`).join("");
+
+function tv(t){
+  const names=[["Maya",1850,4200],["Dev",600,2950],["Priya",0,5100]];
+  const scores=names.map(([n,r,tot],i)=>`<div class="p${i===0?" cur":""}" style="--pc:${t.players[i]}">${i===0?'<span class="flag">Solving</span>':""}<i class="dot"></i><span class="nm">${n}</span><span class="rm">$${r.toLocaleString("en-US")}</span><span class="tot">Total $${tot.toLocaleString("en-US")}</span></div>`).join("");
+  return `<div class="tv ${t.cls}">
+    <div class="top"><div class="logo">Spin &amp; Solve</div><div class="roundpill">Round 2 of 4</div>
+      <div class="timer">Time to solve <b>0:12</b></div></div>
+    <div class="mid">
+      <div class="left">
+        <div class="board">${board()}</div>
+        <div class="cat">Phrase</div>
+        <div class="trans"><div class="mic">${MIC}</div><div><div class="who">Maya is solving &middot; live</div><div class="said">&ldquo;Better late than nev<em>&hellip;</em>&rdquo;</div></div><div class="wave">${WAVE}</div></div>
+      </div>
+      <div class="right">${wheelSVG(t.wheel)}</div>
+    </div>
+    <div class="scores">${scores}</div>
+  </div>`;
+}
+
+function phoneTurn(t){
+  return `<div class="ph ${t.cls}" style="--pc:${t.players[0]}"><div class="status"><span>9:41</span><span>Room KXQP</span></div>
+    <div class="me"><i></i><span>Maya</span><span>$1,850</span></div>
+    <h4>Your turn!</h4><div class="sub">Phrase &middot; 6 letters left</div>
+    <div class="btns"><div class="btn b1">SPIN</div><div class="btn b2">BUY A VOWEL<small>$250</small></div><div class="btn b3">SOLVE</div></div>
+    <div class="tbar"><i></i></div><div class="tlabel"><span>Choose an action</span><span>9s</span></div></div>`;
+}
+function phoneKeys(t){
+  const used=new Set(["T","R","N"]);
+  const keys=CONS.map(c=>`<div class="k${used.has(c)?" used":""}${c==="S"?" sel":""}">${c}</div>`).join("");
+  return `<div class="ph ${t.cls}" style="--pc:${t.players[0]}"><div class="status"><span>9:41</span><span>Room KXQP</span></div>
+    <div class="me"><i></i><span>Maya</span><span>$1,850</span></div>
+    <div class="landed"><span>You landed on</span><b>$650</b></div>
+    <div class="keys">${keys}</div>
+    <div class="call">Call &ldquo;S&rdquo;</div></div>`;
+}
+
+function spec(t){
+  return `<div class="spec"><h3>Palette</h3><div class="swatches">${t.sw.map(([c,n])=>`<div class="sw"><i style="background:${c}"></i>${n}<br>${c}</div>`).join("")}</div>
+    <h3>Type</h3><div class="fonts">${t.fonts.map(([f,l,u])=>`<div><span style="font-family:'${f}',serif;font-weight:${/900|700/.test(l)?(/900/.test(l)?900:700):400}">${esc(l)}</span><span>${u}</span></div>`).join("")}</div>
+    <h3>Notes</h3><ul>${t.notes.map(n=>`<li>${n}</li>`).join("")}</ul></div>`;
+}
+
+const host=document.getElementById("options");
+host.innerHTML=THEMES.map(t=>`<section class="opt" id="opt-${t.id}">
+  <div class="opt-head"><span class="tag">${t.tag}</span><h2>${esc(t.name)}</h2><p>${t.mood}</p></div>
+  <div class="tvframe"><div class="scaler" data-w="1600" data-h="900" style="aspect-ratio:16/9"><div class="inner">${tv(t)}</div></div></div>
+  <div class="row">
+    <div class="phonewrap"><div class="phone"><div class="scaler" data-w="390" data-h="844" style="aspect-ratio:390/844"><div class="inner">${phoneTurn(t)}</div></div></div><div class="cap">Phone: your turn</div></div>
+    <div class="phonewrap"><div class="phone"><div class="scaler" data-w="390" data-h="844" style="aspect-ratio:390/844"><div class="inner">${phoneKeys(t)}</div></div></div><div class="cap">Phone: pick a consonant</div></div>
+    ${spec(t)}
+  </div></section>`).join("");
+
+function fit(el){const s=el.clientWidth/+el.dataset.w;el.firstElementChild.style.transform=`scale(${s})`}
+const scalers=[...document.querySelectorAll(".scaler")];
+scalers.forEach(fit);
+if("ResizeObserver" in window){const ro=new ResizeObserver(es=>es.forEach(e=>fit(e.target)));scalers.forEach(s=>ro.observe(s))}
+else addEventListener("resize",()=>scalers.forEach(fit));
+})();
+</script>
