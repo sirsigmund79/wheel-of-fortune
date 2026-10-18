@@ -31,6 +31,9 @@ export default {
       return json({ error: "Could not allocate a room, try again." }, 503);
     }
 
+    // The bare site address opens the TV screen; there is no page at "/" itself.
+    if (path === "/" || path === "/index.html") return Response.redirect(new URL("/tv" + url.search, url), 302);
+
     if (path === "/tv" || path === "/tv/" || path === "/play" || path === "/play/") {
       // Serve the page at /tv and /play directly (no redirect). Assets' html_handling may
       // redirect /x/index.html -> /x/, so follow one internal redirect if it does.

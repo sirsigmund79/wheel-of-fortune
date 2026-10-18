@@ -26,7 +26,7 @@ npx wrangler login
 npm run deploy       # validates puzzles, then wrangler deploy
 ```
 
-Open `https://spin-and-solve.<your-subdomain>.workers.dev/tv`. Durable Objects with SQLite storage work on the Workers free plan.
+Open `https://wheel-of-fortune.<your-subdomain>.workers.dev/tv`. Durable Objects with SQLite storage work on the Workers free plan.
 
 ## Tests
 
