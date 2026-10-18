@@ -34,3 +34,24 @@ test("empty input", () => {
   assert.deepEqual(parseCustomPack(""), { puzzles: [], errors: [] });
   assert.deepEqual(parseCustomPack(undefined), { puzzles: [], errors: [] });
 });
+
+test("pickPuzzle: source filter and bonus-round preference", async () => {
+  const { pickPuzzle } = await import("../src/game/puzzles.js");
+  const stock = [
+    { category: "Thing", answer: "OUR OWN PUZZLE", difficulty: "easy" },
+    { category: "Phrase", answer: "SHOW PUZZLE ONE", difficulty: "easy", source: "show" },
+    { category: "Thing", answer: "SHOW BONUS", difficulty: "hard", source: "show", bonus: true },
+  ];
+  for (let seed = 1; seed < 30; seed++) {
+    assert.equal(pickPuzzle({ rng: seed }, 1, { stock, source: "original" }).answer, "OUR OWN PUZZLE");
+    assert.equal(pickPuzzle({ rng: seed }, 1, { stock, source: "show" }).answer, "SHOW PUZZLE ONE");
+    assert.equal(pickPuzzle({ rng: seed }, "bonus", { stock, source: "show" }).answer, "SHOW BONUS");
+    assert.notEqual(pickPuzzle({ rng: seed }, 2, { stock, source: "mix" }).answer, "SHOW BONUS");
+  }
+});
+
+test("bundled library has show and original puzzles", async () => {
+  const { STOCK } = await import("../src/game/puzzles.js");
+  assert.ok(STOCK.filter((p) => p.source === "show").length > 20000);
+  assert.ok(STOCK.filter((p) => p.source !== "show").length > 1000);
+});

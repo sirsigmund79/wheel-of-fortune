@@ -140,9 +140,14 @@ function renderLobby(s, prev) {
   }
   const ok = ps.length >= 1 && ps.length <= 6;
   $("startBtn").disabled = !ok;
-  $("startHint").textContent = ok ? (ps.length === 1 ? "Solo game: 7 spins per puzzle. Press start, or wait for more players." : "Everyone in? Press start — or the host can start from their phone.") : ps.length > 6 ? "Too many players (max 6)" : `Waiting for players…`;
+  $("startHint").textContent = ok ? (ps.length === 1 ? "Solo game: 7 spins per puzzle." : "Everyone in? Press start — or the host can start from their phone.") : ps.length > 6 ? "Too many players (max 6)" : `Waiting for players…`;
   $("customCount").textContent = s.customCount ? `${s.customCount} loaded` : "";
+  for (const b of $("sourcePick").children) b.setAttribute("aria-checked", String(b.dataset.src === (s.puzzleSource || "show")));
 }
+$("sourcePick").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-src]");
+  if (b) net?.send({ t: "puzzleSource", source: b.dataset.src });
+});
 $("startBtn").addEventListener("click", () => { sfx.unlock(); net?.send({ t: "start" }); });
 $("packBtn").addEventListener("click", () => {
   $("packResult").innerHTML = "Loading…";

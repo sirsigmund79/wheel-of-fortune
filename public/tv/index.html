@@ -41,6 +41,15 @@
         <button id="startBtn" class="btn btn-start" disabled>Start game</button>
         <div id="startHint" class="hint">Waiting for players…</div>
 
+        <div class="source-row">
+          <span class="source-label">Puzzles</span>
+          <div id="sourcePick" class="seg" role="radiogroup" aria-label="Puzzle set">
+            <button data-src="show" role="radio">From the show</button>
+            <button data-src="original" role="radio">Originals</button>
+            <button data-src="mix" role="radio">Mix</button>
+          </div>
+        </div>
+
         <details id="packBox" class="pack">
           <summary>Custom puzzle pack <span id="customCount" class="pill"></span></summary>
           <p class="pack-help">One per line: <code>Category | ANSWER</code> — e.g. <code>Phrase | BREAK A LEG</code></p>

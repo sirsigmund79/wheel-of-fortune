@@ -50,7 +50,10 @@ for (const file of files) {
     if (a !== p.answer) return fail(file, i, p, "answer has extra/irregular whitespace");
     if (!VALID_ANSWER.test(a)) return fail(file, i, p, `illegal characters: ${[...new Set(a.replace(/[A-Z&'\-?! ]/g, ""))].join("")}`);
     if (!/[A-Z]/.test(a)) return fail(file, i, p, "no letters");
-    if (!CATEGORIES.includes(p.category)) return fail(file, i, p, `unknown category`);
+    // Show puzzles keep the show's own category names; originals use the fixed list.
+    if (p.source === "show") {
+      if (!p.category.trim() || p.category.length > 30) return fail(file, i, p, "bad category");
+    } else if (!CATEGORIES.includes(p.category)) return fail(file, i, p, `unknown category`);
     if (p.difficulty !== undefined && !DIFFICULTIES.has(p.difficulty)) return fail(file, i, p, "difficulty must be easy|medium|hard");
     if (MULTI_WORD.has(p.category) && a.split(" ").length < 2) return fail(file, i, p, "needs 2+ words for this category");
     if (!layout(a)) return fail(file, i, p, "does not fit the 12/14/14/12 board");

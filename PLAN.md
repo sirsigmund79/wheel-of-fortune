@@ -49,6 +49,7 @@ mockups/index.html        visual directions to choose from
 | `leave` | player | `{}` | phase `lobby` |
 | `kick` | tv | `{playerId}` | phase `lobby` |
 | `customPack` | tv | `{text}` lines `Category \| ANSWER` | phase `lobby` (replaces previous pack) |
+| `puzzleSource` | tv or host | `{source:"show"\|"original"\|"mix"}` | phase `lobby` |
 | `start` | tv or host | `{}` | lobby, 1–6 players (1 = solo: 7 spins per puzzle) |
 | `spin` | current | `{}` | phase `turn`, consonants remain |
 | `guess` | current | `{letter}` consonant | phase `pickConsonant` |

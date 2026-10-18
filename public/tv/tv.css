@@ -49,7 +49,7 @@ button { font-family: inherit; }
 .btn:active:not(:disabled) { transform: translateY(4px); box-shadow: 0 2px 0 var(--coral-deep); }
 .btn:disabled { opacity: .35; cursor: not-allowed; filter: grayscale(.6); }
 .btn:focus-visible { outline: 4px solid var(--ink); outline-offset: 4px; }
-.btn-start { font-size: 64px; padding: 22px 80px; }
+.btn-start { font-size: 56px; padding: 16px 80px; }
 .btn-small { font-size: 30px; padding: 12px 40px; }
 
 /* ---------- LOBBY ---------- */
@@ -89,6 +89,11 @@ button { font-family: inherit; }
 #startBtn { align-self: center; margin-top: 4px; }
 #startHint { text-align: center; }
 
+.source-row { display: flex; align-items: center; gap: 18px; }
+.source-label { font-family: var(--font-display); font-size: 24px; font-weight: 600; color: var(--ink-dim); text-transform: uppercase; letter-spacing: .08em; }
+.seg { display: flex; flex: 1; background: var(--bg-1); border: 2px solid var(--surface-line); border-radius: 999px; padding: 4px; gap: 4px; }
+.seg button { flex: 1; font: 700 22px var(--font-display); color: var(--ink-dim); background: none; border: 0; border-radius: 999px; padding: 8px 12px; cursor: pointer; }
+.seg button[aria-checked="true"] { background: var(--gold); color: var(--bg-0); }
 .pack { background: var(--bg-1); border-radius: var(--radius-m); padding: 14px 22px; border: 2px solid var(--surface-line); }
 .pack[open] { position: absolute; left: 44px; right: 44px; bottom: 40px; z-index: 5; box-shadow: 0 -20px 60px rgba(0,0,0,.6); border-color: var(--gold); }
 .pack summary { cursor: pointer; font-family: var(--font-display); font-size: 28px; font-weight: 600; color: var(--ink-dim); }

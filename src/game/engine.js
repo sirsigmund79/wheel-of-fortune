@@ -3,7 +3,7 @@
 import { layout, PUNCTUATION, VOWELS } from "./board.js";
 import { WEDGES, randInt, spinWheel } from "./wheel.js";
 import { judge } from "./judge.js";
-import { pickPuzzle, puzzleKey } from "./puzzles.js";
+import { pickPuzzle, puzzleKey, PUZZLE_SOURCES } from "./puzzles.js";
 import { parseCustomPack } from "./custom.js";
 
 export const COLORS = ["#ef4444", "#f97316", "#eab308", "#22c55e", "#06b6d4", "#3b82f6", "#a855f7", "#ec4899"];
@@ -61,6 +61,7 @@ export function createGame(room, seed = 1, opts = {}) {
     bonus: null,
     winners: null,
     custom: [],
+    puzzleSource: "show", // "show" | "original" | "mix"
     usedPuzzles: [],
     log: `Room ${room} is open — join on your phone!`,
     lastActive: 0,
@@ -152,7 +153,7 @@ function passTurn(s, now, events) {
 
 function startRound(s, now, events) {
   s.round = (typeof s.round === "number" ? s.round : 0) + 1;
-  const p = pickPuzzle(s, s.round, { custom: s.custom, used: s.usedPuzzles, stock: s.stock || undefined });
+  const p = pickPuzzle(s, s.round, { custom: s.custom, used: s.usedPuzzles, stock: s.stock || undefined, source: s.puzzleSource });
   s.puzzle = { category: p.category, answer: p.answer };
   s.usedPuzzles.push(puzzleKey(p.answer));
   s.used = [];
@@ -206,7 +207,7 @@ function startBonus(s, now, events) {
   let leader = s.players[0];
   for (const p of s.players) if (p.total > leader.total) leader = p;
   for (const p of s.players) p.roundMoney = 0;
-  const pz = pickPuzzle(s, "bonus", { custom: s.custom, used: s.usedPuzzles, stock: s.stock || undefined });
+  const pz = pickPuzzle(s, "bonus", { custom: s.custom, used: s.usedPuzzles, stock: s.stock || undefined, source: s.puzzleSource });
   s.puzzle = { category: pz.category, answer: pz.answer };
   s.usedPuzzles.push(puzzleKey(pz.answer));
   s.round = "bonus";
@@ -371,6 +372,14 @@ const HANDLERS = {
     s.custom = puzzles;
     s.log = puzzles.length ? `Custom pack loaded: ${puzzles.length} puzzle${puzzles.length === 1 ? "" : "s"}.` : "Custom pack cleared.";
     reply.push({ t: "packResult", added: puzzles.length, errors });
+  },
+
+  puzzleSource(s, a, m) {
+    if (!isTvOrHost(s, a)) return err("not_allowed", "Only the host can choose puzzles.");
+    if (s.phase !== "lobby") return err("bad_phase", "Only in the lobby.");
+    if (!PUZZLE_SOURCES.includes(m.source)) return err("invalid", "Unknown puzzle set.");
+    s.puzzleSource = m.source;
+    s.log = { show: "Playing puzzles from the TV show.", original: "Playing original puzzles.", mix: "Playing a mix of show and original puzzles." }[m.source];
   },
 
   start(s, a, m, now, events) {
@@ -660,6 +669,7 @@ export function snapshot(s, now, opts = {}) {
     hostId: s.hostId,
     colors: COLORS,
     customCount: s.custom.length,
+    puzzleSource: s.puzzleSource ?? "show",
     players: s.players.map((p) => ({ id: p.id, name: p.name, color: p.color, connected: p.connected, roundMoney: p.roundMoney, total: p.total })),
     round: s.round,
     totalRounds: TOTAL_ROUNDS,

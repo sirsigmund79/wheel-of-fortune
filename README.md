@@ -59,6 +59,19 @@ Event | THE GREAT CAMPING DISASTER
 
 Custom puzzles are played first, then the stock puzzles.
 
+### Puzzle sets
+
+The TV lobby has a **Puzzles** switch: **From the show** (default), **Originals**, or **Mix**. Show puzzles that were bonus-round puzzles on the show are saved for the Bonus Round.
+
+To refresh the show puzzles from a tab-separated list (`PUZZLE  CATEGORY  DATE  EP#  ROUND`):
+
+```bash
+node scripts/import-show.mjs path/to/wheel-puzzles.txt   # writes puzzles/src/50-show.json
+npm run puzzles
+```
+
+The importer drops crossword rounds, puzzles with digits or symbols the board can't show, ones too long for the board, and repeats. Periods, commas and colons are removed.
+
 ## Puzzles
 
 `puzzles/src/*.json` holds original puzzles (`{category, answer, difficulty}`). The validator rejects:
