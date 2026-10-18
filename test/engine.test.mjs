@@ -76,9 +76,10 @@ test("lobby: join validation, names trimmed, colours, host", () => {
   assert.equal(new Set(COLORS).size, 8);
 });
 
-test("start rules: need 2 players, tv or host only; join afterwards is in_progress", () => {
+test("start rules: need 1 player, tv or host only; join afterwards is in_progress", () => {
+  const { s: empty } = setup(0);
+  assert.equal(applyIntent(empty, tv, { t: "start" }, 1).error.code, "players");
   const { s, ids } = setup(1);
-  assert.equal(applyIntent(s, tv, { t: "start" }, 1).error.code, "players");
   applyIntent(s, { role: "player" }, { t: "join", name: "B" }, 1);
   const other = s.players[1].id;
   assert.equal(applyIntent(s, P(other), { t: "start" }, 1).error.code, "not_allowed");
@@ -377,4 +378,63 @@ test("uses the bundled puzzle library by default", () => {
   applyIntent(s, tv, { t: "start" }, 1);
   assert.ok(s.puzzle.answer.length > 0);
   assert.ok(snapshot(s, 1).category);
+});
+
+test("solo: one player can start and gets 7 spins per puzzle", () => {
+  const { s, ids } = started("BAKED POTATO", 1);
+  const me = ids[0];
+  let snap = snapshot(s, 0);
+  assert.equal(snap.solo, true);
+  assert.equal(snap.spinsLeft, 7);
+  // A miss keeps the turn with the solo player.
+  spinTo(s, me, CASH, 0);
+  applyIntent(s, P(me), { t: "guess", letter: "Z" }, 0);
+  assert.equal(s.phase, "turn");
+  assert.equal(s.currentId, me);
+  assert.equal(s.spinsLeft, 6);
+  // BANKRUPT and LOSE A TURN also just burn a spin.
+  spinTo(s, me, BANKRUPT, 0);
+  spinTo(s, me, LOSE, 0);
+  assert.equal(s.phase, "turn");
+  assert.equal(s.spinsLeft, 4);
+  for (let i = 0; i < 4; i++) { spinTo(s, me, LOSE, 0); }
+  assert.equal(s.spinsLeft, 0);
+  assert.equal(applyIntent(s, P(me), { t: "spin" }, 0).error.code, "no_spins");
+  // Out of spins: can still solve; a wrong solve now ends the puzzle.
+  applyIntent(s, P(me), { t: "solveStart" }, 0);
+  const r = applyIntent(s, P(me), { t: "solveSubmit", text: "WRONG ANSWER" }, 0);
+  assert.equal(s.phase, "roundEnd");
+  assert.ok(r.events.some((e) => e.e === "outOfSpins"));
+  assert.equal(s.players[0].total, 0);
+  assert.equal(snapshot(s, 0).answer, "BAKED POTATO");
+});
+
+test("solo: wrong solve with spins left costs a spin; right solve banks", () => {
+  const { s, ids } = started("BAKED POTATO", 1);
+  const me = ids[0];
+  applyIntent(s, P(me), { t: "solveStart" }, 0);
+  applyIntent(s, P(me), { t: "solveSubmit", text: "NOPE" }, 0);
+  assert.equal(s.phase, "turn");
+  assert.equal(s.spinsLeft, 6);
+  applyIntent(s, P(me), { t: "solveStart" }, 0);
+  applyIntent(s, P(me), { t: "solveSubmit", text: "baked potato" }, 0);
+  assert.equal(s.phase, "roundEnd");
+  assert.equal(s.players[0].total, 1000);
+  // Next round resets spins.
+  onDeadline(s, s.deadline);
+  assert.equal(s.spinsLeft, 7);
+});
+
+test("solo: turn timeout with no spins left ends the puzzle", () => {
+  const { s, ids } = started("BAKED POTATO", 1);
+  s.spinsLeft = 0;
+  onDeadline(s, s.deadline);
+  assert.equal(s.phase, "roundEnd");
+});
+
+test("multiplayer snapshot has no spin limit", () => {
+  const { s } = started("BAKED POTATO", 2);
+  const snap = snapshot(s, 0);
+  assert.equal(snap.solo, false);
+  assert.equal(snap.spinsLeft, null);
 });

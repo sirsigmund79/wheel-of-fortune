@@ -8,7 +8,8 @@ import { parseCustomPack } from "./custom.js";
 
 export const COLORS = ["#ef4444", "#f97316", "#eab308", "#22c55e", "#06b6d4", "#3b82f6", "#a855f7", "#ec4899"];
 export const TOTAL_ROUNDS = 4;
-export const MIN_PLAYERS = 2;
+export const MIN_PLAYERS = 1;
+export const SOLO_SPINS = 7; // a lone player gets this many spins per puzzle
 export const MAX_PLAYERS = 6;
 export const MAX_NAME = 12;
 export const VOWEL_COST = 250;
@@ -71,6 +72,7 @@ export function createGame(room, seed = 1, opts = {}) {
 
 const player = (s, id) => s.players.find((p) => p.id === id);
 const nameOf = (s, id) => player(s, id)?.name ?? "Someone";
+const isSolo = (s) => s.players.length === 1;
 
 function setDeadline(s, now, ms, kind) {
   s.deadline = ms == null ? null : now + ms;
@@ -145,7 +147,7 @@ function beginTurn(s, id, now, events, announce = true) {
 function passTurn(s, now, events) {
   const i = s.players.findIndex((p) => p.id === s.currentId);
   const next = s.players[(i + 1) % s.players.length];
-  beginTurn(s, next.id, now, events);
+  beginTurn(s, next.id, now, events, !isSolo(s));
 }
 
 function startRound(s, now, events) {
@@ -158,6 +160,7 @@ function startRound(s, now, events) {
   s.wedgeValue = null;
   s.bonus = null;
   for (const pl of s.players) pl.roundMoney = 0;
+  s.spinsLeft = isSolo(s) ? SOLO_SPINS : null;
   s.currentId = s.players[(s.round - 1) % s.players.length].id;
   s.phase = "roundIntro";
   setDeadline(s, now, T.intro, "intro");
@@ -178,6 +181,19 @@ function endRoundWon(s, id, now, events, how) {
   s.lastSolve = { playerId: id, banked, round: s.round };
   s.log = `${p.name} ${how} and banks ${fmt(banked)}!`;
   events.push({ e: "solveRight", playerId: id, banked });
+}
+
+// Solo only: out of spins and out of chances.
+function endRoundLost(s, now, events) {
+  const id = s.currentId;
+  for (const pl of s.players) pl.roundMoney = 0;
+  s.phase = "roundEnd";
+  s.solve = null;
+  s.wedgeValue = null;
+  s.lastSolve = null;
+  setDeadline(s, now, T.roundEnd, "roundEnd");
+  s.log = `Out of spins! ${nameOf(s, id)} didn't crack this one.`;
+  events.push({ e: "outOfSpins", playerId: id });
 }
 
 function advanceFromRoundEnd(s, now, events) {
@@ -264,6 +280,11 @@ function judgeMainSolve(s, text, now, events) {
   } else {
     s.log = `${nameOf(s, id)} guessed "${String(text || "…").slice(0, 60)}" — not quite.`;
     events.push({ e: "solveWrong", playerId: id, text: String(text || "") });
+    if (isSolo(s)) {
+      // Solo: a wrong guess costs a spin; with none left, the puzzle is lost.
+      if (s.spinsLeft > 0) s.spinsLeft--;
+      else return endRoundLost(s, now, events);
+    }
     passTurn(s, now, events);
   }
 }
@@ -367,6 +388,8 @@ const HANDLERS = {
     const bad = needPhase(s, "turn");
     if (bad) return bad;
     if (remaining(s).consonants === 0) return err("vowels_only", "Only vowels left — buy a vowel or solve.");
+    if (isSolo(s) && !(s.spinsLeft > 0)) return err("no_spins", "No spins left — buy a vowel or solve.");
+    if (isSolo(s)) s.spinsLeft--;
     const spin = spinWheel(s);
     s.spinId++;
     s.pendingSpin = { index: spin.index };
@@ -524,7 +547,8 @@ export function onDeadline(s, now) {
     case "pickConsonant":
       events.push({ e: "timeout", playerId: id, kind: s.deadlineKind });
       s.log = `Time's up, ${nameOf(s, id)}!`;
-      passTurn(s, now, events);
+      if (isSolo(s) && s.phase === "turn" && !(s.spinsLeft > 0)) endRoundLost(s, now, events);
+      else passTurn(s, now, events);
       break;
     case "spinning": {
       const index = s.pendingSpin?.index ?? 0;
@@ -655,6 +679,9 @@ export function snapshot(s, now, opts = {}) {
     log: s.log,
     winners: s.phase === "gameOver" ? s.winners : null,
     lastSolve: s.phase === "roundEnd" ? s.lastSolve ?? null : null,
+    solo: isSolo(s),
+    spinsLeft: s.spinsLeft ?? null, // solo only; null in multiplayer
+    soloSpins: SOLO_SPINS,
   };
   if (over) snap.answer = s.puzzle.answer;
   if (opts.debugAnswer && s.puzzle) snap.debugAnswer = s.puzzle.answer;

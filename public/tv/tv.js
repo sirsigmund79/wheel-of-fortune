@@ -138,9 +138,9 @@ function renderLobby(s, prev) {
       box.appendChild(el);
     }
   }
-  const ok = ps.length >= 2 && ps.length <= 6;
+  const ok = ps.length >= 1 && ps.length <= 6;
   $("startBtn").disabled = !ok;
-  $("startHint").textContent = ok ? "Everyone in? Press start — or the host can start from their phone." : ps.length > 6 ? "Too many players (max 6)" : `Waiting for at least 2 players…`;
+  $("startHint").textContent = ok ? (ps.length === 1 ? "Solo game: 7 spins per puzzle. Press start, or wait for more players." : "Everyone in? Press start — or the host can start from their phone.") : ps.length > 6 ? "Too many players (max 6)" : `Waiting for players…`;
   $("customCount").textContent = s.customCount ? `${s.customCount} loaded` : "";
 }
 $("startBtn").addEventListener("click", () => { sfx.unlock(); net?.send({ t: "start" }); });
@@ -170,6 +170,11 @@ function renderGame(s, prev) {
   }
 
   $("category").textContent = s.category || "";
+  const spinsEl = $("spinsLeft");
+  const showSpins = !!s.solo && !bonus && ["turn", "pickConsonant", "revealing", "spinning", "solving"].includes(s.phase);
+  spinsEl.classList.toggle("on", showSpins);
+  spinsEl.classList.toggle("low", showSpins && s.spinsLeft <= 2);
+  if (showSpins) spinsEl.textContent = s.spinsLeft > 0 ? `${s.spinsLeft} spin${s.spinsLeft === 1 ? "" : "s"} left` : "Last chance — solve it!";
   $("vowelsOnly").classList.toggle("on", !!s.vowelsOnly && !bonus && ["turn", "pickConsonant", "revealing", "spinning"].includes(s.phase));
   renderUsed(s, prev);
   renderBoard(s, prev);
@@ -599,7 +604,7 @@ function showRoundEnd(s) {
   $("reAnswer").textContent = s.answer || "";
   $("reWinner").innerHTML = solvedThisRound
     ? `${whoSpan(lastSolve.playerId)} banks <span class="amt">${money(lastSolve.banked)}</span>`
-    : `Nobody solved this one.`;
+    : s.solo ? `Out of spins — better luck on the next one!` : `Nobody solved this one.`;
   $("roundEnd").classList.add("on");
 }
 function renderStandings(s) {
@@ -689,6 +694,10 @@ function onEvent(ev) {
       banner(`${whoSpan(ev.playerId)}'s turn`, { pc: p?.color, sound: sfx.turnChime, delay: true });
       break;
     }
+    case "outOfSpins":
+      sfx.bankrupt();
+      banner(`OUT OF SPINS<span class="small">${esc(pname(ev.playerId))}</span>`, { cls: "bad" });
+      break;
     case "timeout":
       sfx.buzz();
       banner(`Time's up!<span class="small">${esc(pname(ev.playerId))}</span>`, { cls: "bad" });

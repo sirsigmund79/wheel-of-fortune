@@ -219,7 +219,7 @@ button { font-family: inherit; }
   min-width: 520px; text-align: center; box-shadow: var(--shadow);
 }
 .category:empty { visibility: hidden; }
-.under-board { display: flex; align-items: center; gap: 24px; }
+.under-board { display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap; row-gap: 10px; max-width: 100%; }
 .used-strip { display: flex; gap: 5px; }
 .ul { width: 36px; height: 48px; border-radius: 7px; display: grid; place-items: center; font-family: var(--font-display); font-weight: 700; font-size: 30px; background: var(--surface); color: var(--ink); border: 2px solid var(--surface-line); }
 .ul.v { color: var(--gold-soft); }
@@ -227,6 +227,9 @@ button { font-family: inherit; }
 .ul.just { animation: pop-in .5s; }
 .badge-vowels { font-family: var(--font-display); font-weight: 700; font-size: 30px; background: var(--coral); color: var(--ink); padding: 6px 24px; border-radius: 999px; display: none; white-space: nowrap; animation: pulse 1.6s infinite; }
 .badge-vowels.on { display: block; }
+.badge-spins { font-family: var(--font-display); font-weight: 700; font-size: 30px; background: var(--surface); color: var(--gold); border: 3px solid var(--gold); padding: 4px 22px; border-radius: 999px; display: none; white-space: nowrap; }
+.badge-spins.on { display: block; }
+.badge-spins.low { color: var(--coral); border-color: var(--coral); animation: pulse 1.6s infinite; }
 
 /* scoreboard */
 .scores { height: 196px; flex: none; display: flex; gap: 22px; padding: 18px 48px 30px; justify-content: center; }

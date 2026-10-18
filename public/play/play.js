@@ -389,8 +389,8 @@ const SCREENS = {
       const n = s.players.length;
       const custom = s.customCount ? `<p class="muted center-text">${s.customCount} custom puzzle${s.customCount === 1 ? "" : "s"} loaded</p>` : "";
       $(".lobby-actions", el).innerHTML = (isHost()
-        ? `<button class="btn primary xl" data-act="start" ${n >= 2 && n <= 6 ? "" : "disabled"}>Start game</button>
-           <p class="muted center-text">${n < 2 ? "Need at least 2 players to start" : "You're the host — start when everyone's in"}</p>`
+        ? `<button class="btn primary xl" data-act="start" ${n >= 1 && n <= 6 ? "" : "disabled"}>${n === 1 ? "Start solo game" : "Start game"}</button>
+           <p class="muted center-text">${n === 1 ? "Playing alone: 7 spins per puzzle. Or wait for friends to join." : "You're the host — start when everyone's in"}</p>`
         : `<div class="waiting"><div class="dots"><i></i><i></i><i></i></div>Waiting for host${player(s.hostId) ? " (" + esc(player(s.hostId).name) + ")" : ""}…</div>`)
         + custom + `<button class="btn ghost" data-act="leave">Leave</button>`;
     }
@@ -596,7 +596,8 @@ function mainHTML() {
       return waitCard("Bonus round!", s.bonus?.playerId === me ? "You're playing for the big prize!" : `${esc(player(s.bonus?.playerId)?.name || "The leader")} plays for the big prize`);
     case "turn": {
       if (!myTurn) return waitCard(`${curName}'s turn`, "Deciding what to do…");
-      const canSpin = s.consonantsLeft && !s.vowelsOnly;
+      const outOfSpins = s.solo && !(s.spinsLeft > 0);
+      const canSpin = s.consonantsLeft && !s.vowelsOnly && !outOfSpins;
       const canBuy = (p?.roundMoney || 0) >= 250 && s.vowelsLeft;
       const used = new Set(s.used || []);
       const vp = ui.vowelPicker && canBuy;
@@ -605,13 +606,14 @@ function mainHTML() {
         ${categoryHTML()}${boardHTML()}
         <div class="actions">
           ${canSpin
-            ? `<button class="btn spin xl" data-act="spin">Spin the wheel</button>`
-            : `<button class="btn spin xl" disabled>Vowels only</button>`}
+            ? `<button class="btn spin xl" data-act="spin">Spin the wheel${s.solo ? ` <small>${s.spinsLeft} left</small>` : ""}</button>`
+            : `<button class="btn spin xl" disabled>${outOfSpins ? "No spins left" : "Vowels only"}</button>`}
           ${canBuy ? `<button class="btn vowel xl ${vp ? "open" : ""}" data-act="vowels">Buy a vowel <small>$250</small></button>` : ""}
           ${vp ? `<div class="vowel-pick">${VOWELS.map((v) => `<button class="key big" data-act="buy" data-l="${v}" ${used.has(v) ? "disabled" : ""}>${v}</button>`).join("")}</div>` : ""}
           <button class="btn solve xl" data-act="solve">Solve</button>
         </div>
         ${!canBuy && s.vowelsLeft ? `<p class="muted center-text small">Vowels cost $250 of round money</p>` : ""}
+        ${outOfSpins ? `<p class="muted center-text small">Last chance: solve it! A wrong answer ends the puzzle.</p>` : s.solo ? `<p class="muted center-text small">A wrong solve costs a spin.</p>` : ""}
         ${usedHTML()}`;
     }
     case "spinning":

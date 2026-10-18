@@ -49,7 +49,7 @@ mockups/index.html        visual directions to choose from
 | `leave` | player | `{}` | phase `lobby` |
 | `kick` | tv | `{playerId}` | phase `lobby` |
 | `customPack` | tv | `{text}` lines `Category \| ANSWER` | phase `lobby` (replaces previous pack) |
-| `start` | tv or host | `{}` | lobby, 2–6 players |
+| `start` | tv or host | `{}` | lobby, 1–6 players (1 = solo: 7 spins per puzzle) |
 | `spin` | current | `{}` | phase `turn`, consonants remain |
 | `guess` | current | `{letter}` consonant | phase `pickConsonant` |
 | `buyVowel` | current | `{letter}` vowel | phase `turn`, roundMoney ≥ 250, vowels remain |
@@ -88,6 +88,7 @@ mockups/index.html        visual directions to choose from
   solve: {playerId, text, source, final} | null,   // live transcript for TV
   bonus: {playerId, given:["R","S","T","L","N","E"], picks:[], prize} | null,
   answer,                   // ONLY present once the round is over (roundEnd/bonusEnd/gameOver)
+  solo: bool, spinsLeft: number|null, soloSpins: 7,   // solo mode spin budget (null in multiplayer)
   log: "Maya bought an E — 3 of them!",   // latest human-readable line
   winners: [{id, total}]    // gameOver, sorted
 }
@@ -98,7 +99,7 @@ mockups/index.html        visual directions to choose from
 - `reveal {letter, count, cells:[[row,col],...], value, earned}` — TV flips cells one by one (~700ms each).
 - `miss {letter, reason:"absent"|"used"}`, `bankrupt {playerId, lost}`, `loseTurn {playerId}`
 - `turn {playerId}` — phone vibrates if it's them. `timeout {playerId, kind}`
-- `solveRight {playerId, banked}`, `solveWrong {playerId, text}`, `roundStart {round}`, `bonusResult {won, prize}`
+- `outOfSpins {playerId}` (solo: puzzle lost), `solveRight {playerId, banked}`, `solveWrong {playerId, text}`, `roundStart {round}`, `bonusResult {won, prize}`
 
 ### Game rules encoded in the engine
 - Wedges (24): cash 300–900 ×20, one 2500, two BANKRUPT, one LOSE A TURN. Seeded RNG in state.

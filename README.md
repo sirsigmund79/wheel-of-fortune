@@ -1,6 +1,6 @@
 # Spin & Solve
 
-An original local-multiplayer word-puzzle party game for 2–6 players. A laptop runs the **TV screen** (mirror it to your TV); everyone plays on their **phone**.
+An original local-multiplayer word-puzzle party game for 1–6 players (solo play included). A laptop runs the **TV screen** (mirror it to your TV); everyone plays on their **phone**.
 
 Built on Cloudflare Workers + one Durable Object per room (WebSocket hibernation). Plain HTML/CSS/JS, no build step.
 
@@ -44,6 +44,7 @@ node scripts/smoke.mjs
 - On your turn: **SPIN** (then tap a consonant; you earn the wedge value for each time it appears), **BUY A VOWEL** for $250, or **SOLVE** (type it, or hold the mic and say it).
 - BANKRUPT wipes your round money, and LOSE A TURN passes play to the next player. A wrong letter, a repeated letter or a wrong solve also ends your turn.
 - Solving banks your round money, with a minimum of $1,000.
+- **Solo (1 player):** you get 7 spins per puzzle. Misses, BANKRUPT and LOSE A TURN just use up a spin, and a wrong solve costs a spin. With no spins left you can still buy vowels and solve, but a wrong answer (or running out the clock) loses the puzzle.
 - Timers: 20 s to act and 30 s to solve.
 - Bonus Round: R S T L N E are revealed, you choose 3 consonants and 1 vowel, then you have 15 s to solve.
 
